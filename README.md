@@ -1,0 +1,1 @@
+# resourceq-static-app
