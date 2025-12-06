@@ -876,11 +876,21 @@
     <!-- End Services Area -->
 
     <!-- Start Overview Area -->
-    <section class="overview-area ptb-100 bg-f4f6fc">
-      <div class="container">
-        <div class="section-title mw-100 mx-5 px-5">
-          <h2 class="mb-2">Full Stack Development Program</h2>
-          <p class="mx-5 mt-3 px-5">
+    <section
+      class="overview-area parallax-section ptb-100 bg-f4f6fc position-relative overflow-hidden"
+      data-parallax-speed="0.5"
+    >
+      <div
+        class="parallax-bg"
+        style="background-image: url('assets/img/parallax-bg.jpg')"
+      ></div>
+      <div class="container position-relative z-index-2">
+        <div
+          class="section-title mw-100 mx-auto text-center"
+          style="max-width: 800px"
+        >
+          <h2 class="mb-2 text-white">Full Stack Development Program</h2>
+          <p class="mt-3 text-white-70">
             Our Full Stack Development program is designed to equip aspiring
             developers with the skills and knowledge necessary to excel in
             today's dynamic digital landscape. Through a comprehensive
@@ -888,259 +898,279 @@
             will gain proficiency in both front-end and back-end development.
           </p>
         </div>
-      </div>
 
-      <div class="overview-floating">
-        <i
-          class="bx bx-star ov-fx ov-a"
-          style="left: 8%; top: 20%; font-size: 48px; animation-delay: -1s"
-        ></i>
-        <i
-          class="bx bx-bolt-circle ov-fx ov-b"
-          style="left: 22%; top: 72%; font-size: 60px; animation-delay: -3s"
-        ></i>
-        <i
-          class="bx bx-code-alt ov-fx ov-c"
-          style="left: 38%; top: 30%; font-size: 46px; animation-delay: -2s"
-        ></i>
-        <i
-          class="bx bx-planet ov-fx ov-a"
-          style="left: 56%; top: 64%; font-size: 54px; animation-delay: -1.5s"
-        ></i>
-        <i
-          class="bx bx-chip ov-fx ov-b"
-          style="left: 72%; top: 18%; font-size: 58px; animation-delay: -2.8s"
-        ></i>
-        <i
-          class="bx bx-dna ov-fx ov-c"
-          style="left: 88%; top: 34%; font-size: 56px; animation-delay: -3.6s"
-        ></i>
-      </div>
-
-      <div
-        class="overview-item wow animate__animated animate__fadeInUp"
-        data-wow-delay=".2s"
-      >
-        <div class="container max-width-1290">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-left-img">
+        <div class="overview-grid mt-5">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+              <div class="overview-content modern-card p-4">
+                <span class="number gradient-text">01</span>
+                <h3 class="text-white">Curriculum Highlights</h3>
+                <ul class="list-unstyled space-y-3 mt-3">
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Java Fundamentals:</strong>
+                      <span class="text-white-70"
+                        >Object-oriented programming, core Java concepts, data
+                        structures, and algorithms.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Spring Framework:</strong>
+                      <span class="text-white-70"
+                        >Building robust and scalable enterprise applications
+                        using Spring Boot, Spring MVC, and Spring Data
+                        JPA.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Database Management:</strong>
+                      <span class="text-white-70"
+                        >Mastering SQL, database design, and optimization with
+                        MySQL.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Python Programming:</strong>
+                      <span class="text-white-70"
+                        >Learning Python syntax, data structures, and
+                        object-oriented programming.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Django Framework:</strong>
+                      <span class="text-white-70"
+                        >Building web applications rapidly using Python and
+                        Django.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Frontend Development:</strong>
+                      <span class="text-white-70"
+                        >Mastering HTML, CSS, and JavaScript for creating
+                        interactive user interfaces.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Frontend Frameworks:</strong>
+                      <span class="text-white-70"
+                        >Building dynamic and responsive web applications using
+                        Angular and React.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Version Control:</strong>
+                      <span class="text-white-70"
+                        >Utilizing Git for efficient code management and
+                        collaboration.</span
+                      >
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">DevOps:</strong>
+                      <span class="text-white-70"
+                        >Understanding CI/CD pipelines, cloud platforms (AWS,
+                        Azure, GCP), and deployment strategies.</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 col-md-12 order-lg-2 order-1 text-center mb-4 mb-lg-0"
+            >
+              <div class="overview-image modern-image">
                 <img
-                  class="wow animate__animated animate__zoomIn"
+                  class="img-fluid rounded-3 shadow-lg"
                   src="assets/img/home-saas/feature2.png"
                   alt="image"
                 />
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-content pl-3">
-                <span class="number">01</span>
-                <h3>Curriculum Highlights</h3>
-                <p>&nbsp;</p>
-                <ul>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Java Fundamentals:</strong>
-                    <span
-                      >Object-oriented programming, core Java concepts, data
-                      structures, and algorithms.</span
-                    >
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6 col-md-12 text-center mb-4 mb-lg-0">
+              <div class="overview-image modern-image">
+                <img
+                  class="img-fluid rounded-3 shadow-lg"
+                  src="assets/img/home-saas/feature3.png"
+                  alt="image"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="overview-content modern-card p-4">
+                <span class="number gradient-text">02</span>
+                <h3 class="text-white">Learning Methodology</h3>
+                <ul class="list-unstyled space-y-3 mt-3">
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Hands-on Projects:</strong>
+                      <span class="text-white-70"
+                        >Real-world project-based learning to reinforce
+                        theoretical concepts.</span
+                      >
+                    </div>
                   </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Spring Framework:</strong>
-                    <span
-                      >Building robust and scalable enterprise applications
-                      using Spring Boot, Spring MVC, and Spring Data JPA.</span
-                    >
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white">Expert Mentorship:</strong>
+                      <span class="text-white-70"
+                        >Guidance from experienced industry professionals.</span
+                      >
+                    </div>
                   </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Database Management:</strong>
-                    <span
-                      >Mastering SQL, database design, and optimization with
-                      MySQL.</span
-                    >
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white"
+                        >Industry-Relevant Curriculum:</strong
+                      >
+                      <span class="text-white-70"
+                        >Staying updated with the latest industry trends and
+                        technologies.</span
+                      >
+                    </div>
                   </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Python Programming:</strong>
-                    <span
-                      >Learning Python syntax, data structures, and
-                      object-oriented programming.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Django Framework:</strong>
-                    <span
-                      >Building web applications rapidly using Python and
-                      Django.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Frontend Development:</strong>
-                    <span
-                      >Mastering HTML, CSS, and JavaScript for creating
-                      interactive user interfaces.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Frontend Frameworks:</strong>
-                    <span
-                      >Building dynamic and responsive web applications using
-                      Angular and React.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Version Control:</strong>
-                    <span
-                      >Utilizing Git for efficient code management and
-                      collaboration.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>DevOps:</strong>
-                    <span
-                      >Understanding CI/CD pipelines, cloud platforms (AWS,
-                      Azure, GCP), and deployment strategies.</span
-                    >
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white"
+                        >Soft Skills Development:</strong
+                      >
+                      <span class="text-white-70"
+                        >Communication, teamwork, problem-solving, and critical
+                        thinking skills.</span
+                      >
+                    </div>
                   </li>
                 </ul>
-                <!-- <a href="#" class="default-btn black-btn">
-                                    <i class='bx bxs-arrow-to-right'></i>
-                                    Read More 
-                                    <span></span>
-                                </a> -->
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div
-        class="overview-item wow animate__animated animate__fadeInUp"
-        data-wow-delay=".4s"
-      >
-        <div class="container max-width-1290">
           <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-content pl-3">
-                <span class="number">02</span>
-                <h3>Learning Methodology</h3>
-                <p>&nbsp;</p>
-                <ul>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Hands-on Projects:</strong>
-                    <span
-                      >Real-world project-based learning to reinforce
-                      theoretical concepts.</span
-                    >
+            <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+              <div class="overview-content modern-card p-4">
+                <span class="number gradient-text">03</span>
+                <h3 class="text-white">Career Support</h3>
+                <ul class="list-unstyled space-y-3 mt-3">
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white"
+                        >Job Placement Assistance:</strong
+                      >
+                      <span class="text-white-70"
+                        >Dedicated career counseling and job placement
+                        support.</span
+                      >
+                    </div>
                   </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Expert Mentorship:</strong>
-                    <span
-                      >Guidance from experienced industry professionals.</span
-                    >
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white"
+                        >Resume Building and Interview Preparation:</strong
+                      >
+                      <span class="text-white-70"
+                        >Enhancing employability skills.</span
+                      >
+                    </div>
                   </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Industry-Relevant Curriculum:</strong>
-                    <span
-                      >Staying updated with the latest industry trends and
-                      technologies.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Soft Skills Development:</strong>
-                    <span
-                      >Communication, teamwork, problem-solving, and critical
-                      thinking skills.</span
-                    >
+                  <li class="d-flex align-items-start mb-2">
+                    <i
+                      class="bx bx-badge-check text-success me-2 mt-1 flex-shrink-0"
+                    ></i>
+                    <div>
+                      <strong class="text-white"
+                        >Industry Networking Opportunities:</strong
+                      >
+                      <span class="text-white-70"
+                        >Connecting with potential employers and industry
+                        experts.</span
+                      >
+                    </div>
                   </li>
                 </ul>
-                <!-- <a href="#" class="default-btn black-btn">
-                                    <i class='bx bxs-arrow-to-right'></i>
-                                    Read More 
-                                    <span></span>
-                                </a> -->
               </div>
             </div>
-
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-right-img">
-                <img src="assets/img/home-saas/feature3.png" alt="image" />
+            <div
+              class="col-lg-6 col-md-12 order-lg-2 order-1 text-center mb-4 mb-lg-0"
+            >
+              <div class="overview-image modern-image">
+                <img
+                  class="img-fluid rounded-3 shadow-lg"
+                  src="assets/img/home-saas/feature4.png"
+                  alt="image"
+                />
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div
-        class="overview-item wow animate__animated animate__fadeInUp"
-        data-wow-delay=".6s"
-      >
-        <div class="container max-width-1290">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-left-img">
-                <img src="assets/img/home-saas/feature4.png" alt="image" />
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-              <div class="overview-content pl-3">
-                <span class="number">03</span>
-                <h3>Career Support</h3>
-                <p>&nbsp;</p>
-                <ul>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Job Placement Assistance:</strong>
-                    <span
-                      >Dedicated career counseling and job placement
-                      support.</span
-                    >
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Resume Building and Interview Preparation:</strong>
-                    <span>Enhancing employability skills.</span>
-                  </li>
-                  <li>
-                    <i class="bx bx-badge-check"></i>
-                    <strong>Industry Networking Opportunities:</strong>
-                    <span
-                      >Connecting with potential employers and industry
-                      experts.</span
-                    >
-                  </li>
-                </ul>
-                <!-- <a href="#" class="default-btn black-btn">
-                                    <i class='bx bxs-arrow-to-right'></i>
-                                    Read More 
-                                    <span></span>
-                                </a> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="container wow animate__animated animate__fadeInUp"
-        data-wow-delay=".6s"
-      >
-        <div class="section-title mw-100 mx-5 px-5">
-          <p class="mx-5 mt-3 mb-0 px-5">
+        <div
+          class="section-title mw-100 mx-auto text-center mt-5"
+          style="max-width: 800px"
+        >
+          <p class="mt-3 mb-0 text-white-70">
             By the end of the program, participants will be well-prepared to
             take on challenging development roles and contribute effectively to
             software development teams.
@@ -1148,6 +1178,7 @@
         </div>
       </div>
     </section>
+
     <!-- End Overview Area -->
 
     <!-- Start Features Area -->
