@@ -64,7 +64,8 @@ a:hover {
   color: #13c4a1;
 }
 
-button, input {
+button,
+input {
   outline: 0 !important;
 }
 
@@ -227,11 +228,13 @@ p:last-child {
   z-index: -1;
   border-radius: 5px;
 }
-.default-btn:hover, .default-btn:focus {
+.default-btn:hover,
+.default-btn:focus {
   color: #ffffff;
   box-shadow: 0px 5px 28.5px 1.5px rgba(19, 196, 161, 0.3) !important;
 }
-.default-btn:hover span, .default-btn:focus span {
+.default-btn:hover span,
+.default-btn:focus span {
   width: 225%;
   height: 562.5px;
 }
@@ -286,13 +289,16 @@ p:last-child {
   z-index: -1;
   border-radius: 5px;
 }
-.optional-btn:hover, .optional-btn:focus {
+.optional-btn:hover,
+.optional-btn:focus {
   color: #ffffff;
 }
-.optional-btn:hover::before, .optional-btn:focus::before {
+.optional-btn:hover::before,
+.optional-btn:focus::before {
   border-color: #ff612f;
 }
-.optional-btn:hover span, .optional-btn:focus span {
+.optional-btn:hover span,
+.optional-btn:focus span {
   width: 225%;
   height: 562.5px;
 }
@@ -425,13 +431,24 @@ Navbar Area CSS
 .navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn i {
   color: #080a3c;
 }
-.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn::before {
+.navbar-area.is-sticky
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn::before {
   border-color: #080a3c;
 }
-.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:hover, .navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:focus {
+.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:hover,
+.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:focus {
   color: #ffffff;
 }
-.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:hover i, .navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:focus i {
+.navbar-area.is-sticky .strax-nav .navbar .others-options .optional-btn:hover i,
+.navbar-area.is-sticky
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn:focus
+  i {
   color: #ffffff;
 }
 .navbar-area.navbar-style-two {
@@ -450,16 +467,45 @@ Navbar Area CSS
 .navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn {
   color: #080a3c;
 }
-.navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn i {
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn
+  i {
   color: #ff612f;
 }
-.navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn::before {
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn::before {
   border-color: #080a3c;
 }
-.navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn:hover, .navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn:focus {
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn:hover,
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn:focus {
   color: #ffffff;
 }
-.navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn:hover i, .navbar-area.navbar-style-two .strax-nav .navbar .others-options .optional-btn:focus i {
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn:hover
+  i,
+.navbar-area.navbar-style-two
+  .strax-nav
+  .navbar
+  .others-options
+  .optional-btn:focus
+  i {
   color: #ffffff;
 }
 .navbar-area.p-relative {
@@ -515,7 +561,9 @@ Navbar Area CSS
   margin-left: 13px;
   margin-right: 13px;
 }
-.strax-nav .navbar .navbar-nav .nav-item a:hover, .strax-nav .navbar .navbar-nav .nav-item a:focus, .strax-nav .navbar .navbar-nav .nav-item a.active {
+.strax-nav .navbar .navbar-nav .nav-item a:hover,
+.strax-nav .navbar .navbar-nav .nav-item a:focus,
+.strax-nav .navbar .navbar-nav .nav-item a.active {
   color: #13c4a1;
 }
 .strax-nav .navbar .navbar-nav .nav-item a i {
@@ -532,7 +580,8 @@ Navbar Area CSS
 .strax-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
-.strax-nav .navbar .navbar-nav .nav-item:hover a, .strax-nav .navbar .navbar-nav .nav-item.active a {
+.strax-nav .navbar .navbar-nav .nav-item:hover a,
+.strax-nav .navbar .navbar-nav .nav-item.active a {
   color: #13c4a1;
 }
 .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -566,7 +615,9 @@ Navbar Area CSS
   font-size: 14px;
   font-weight: 500;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
+.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
+.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #13c4a1;
 }
 .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child a {
@@ -581,105 +632,601 @@ Navbar Area CSS
 .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: 220px;
   top: 15px;
   opacity: 0;
   visibility: hidden;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 15px;
   opacity: 0;
   visibility: hidden;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 15px;
   opacity: 0;
   visibility: hidden;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 15px;
   opacity: 0;
   visibility: hidden;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 15px;
   opacity: 0;
   visibility: hidden;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #4a6f8a;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
@@ -687,7 +1234,13 @@ Navbar Area CSS
 .strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: #13c4a1;
 }
-.strax-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 0;
@@ -730,7 +1283,13 @@ Navbar Area CSS
   padding-right: 0;
   border-bottom: 1px dashed #e5e5e5 !important;
 }
-.strax-nav .navbar .navbar-nav .nav-item .mega-dropdown-menu .nav-item a:last-child {
+.strax-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .mega-dropdown-menu
+  .nav-item
+  a:last-child {
   border-bottom: none !important;
 }
 .strax-nav .navbar .others-options {
@@ -759,7 +1318,8 @@ Navbar Area CSS
 .strax-nav .navbar .others-options .optional-btn span {
   background-color: #080a3c;
 }
-.strax-nav .navbar .others-options .optional-btn:hover::before, .strax-nav .navbar .others-options .optional-btn:focus::before {
+.strax-nav .navbar .others-options .optional-btn:hover::before,
+.strax-nav .navbar .others-options .optional-btn:focus::before {
   border-color: #080a3c;
 }
 
@@ -848,13 +1408,23 @@ Navbar Area CSS
   left: 15px;
   font-size: 15px;
 }
-.others-option-for-responsive .option-inner .others-options .optional-btn::before {
+.others-option-for-responsive
+  .option-inner
+  .others-options
+  .optional-btn::before {
   border-color: #080a3c;
 }
 .others-option-for-responsive .option-inner .others-options .optional-btn span {
   background-color: #13c4a1;
 }
-.others-option-for-responsive .option-inner .others-options .optional-btn:hover::before, .others-option-for-responsive .option-inner .others-options .optional-btn:focus::before {
+.others-option-for-responsive
+  .option-inner
+  .others-options
+  .optional-btn:hover::before,
+.others-option-for-responsive
+  .option-inner
+  .others-options
+  .optional-btn:focus::before {
   border-color: #13c4a1;
 }
 
@@ -872,16 +1442,34 @@ Navbar Area CSS
   .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav ul {
     font-size: 14px;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav ul li a.active {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    a.active {
     color: #13c4a1;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav ul li li a {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    ul
+    li
+    li
+    a {
     font-size: 14px;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav .mega-dropdown-menu {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    .mega-dropdown-menu {
     padding: 0 15px;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav .mega-dropdown-menu h3 {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    .mega-dropdown-menu
+    h3 {
     font-size: 16px;
     margin-top: 0;
     border-bottom: 1px dashed #e5e5e5;
@@ -889,7 +1477,11 @@ Navbar Area CSS
     padding-bottom: 10px;
     position: relative;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav .mega-dropdown-menu h3::before {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    .mega-dropdown-menu
+    h3::before {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -898,7 +1490,10 @@ Navbar Area CSS
     width: 30px;
     height: 1px;
   }
-  .strax-responsive-nav .strax-responsive-menu.mean-container .mean-nav .others-options {
+  .strax-responsive-nav
+    .strax-responsive-menu.mean-container
+    .mean-nav
+    .others-options {
     display: none;
   }
   .strax-responsive-nav .strax-responsive-menu.mean-container .navbar-nav {
@@ -953,7 +1548,8 @@ Main Banner Area CSS
   margin-left: 0;
   margin-right: 0;
 }
-.main-banner .container-fluid .row .col-lg-5, .main-banner .container-fluid .row .col-lg-7 {
+.main-banner .container-fluid .row .col-lg-5,
+.main-banner .container-fluid .row .col-lg-7 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -970,7 +1566,8 @@ Main Banner Area CSS
   margin-left: 0;
   margin-right: 0;
 }
-.banner-section .container-fluid .row .col-lg-7, .banner-section .container-fluid .row .col-lg-5 {
+.banner-section .container-fluid .row .col-lg-7,
+.banner-section .container-fluid .row .col-lg-5 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -1113,7 +1710,7 @@ Main Banner Area CSS
   text-align: left;
   margin-top: 50px;
 }
-.banner-content-slides.owl-theme .owl-nav [class*=owl-] {
+.banner-content-slides.owl-theme .owl-nav [class*="owl-"] {
   color: #080a3c;
   font-size: 25px;
   margin: 0 5px;
@@ -1124,15 +1721,15 @@ Main Banner Area CSS
   height: 45px;
   line-height: 52px;
 }
-.banner-content-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.banner-content-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   color: #ffffff;
   background-color: #13c4a1;
 }
-.banner-content-slides.owl-theme .owl-nav [class*=owl-].owl-prev {
+.banner-content-slides.owl-theme .owl-nav [class*="owl-"].owl-prev {
   border-radius: 0 0 0 10px;
   margin-left: 0;
 }
-.banner-content-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.banner-content-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
   margin-right: 0;
   border-radius: 0 10px 0 0;
 }
@@ -1386,7 +1983,9 @@ Main Banner Area CSS
 }
 
 @keyframes sk-bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
   }
   40% {
@@ -1422,7 +2021,8 @@ Main Banner Area CSS
   left: 0;
   right: 0;
 }
-.main-banner-two .banner-image-slider .owl-dots .owl-dot.active span, .main-banner-two .banner-image-slider .owl-dots .owl-dot:hover span {
+.main-banner-two .banner-image-slider .owl-dots .owl-dot.active span,
+.main-banner-two .banner-image-slider .owl-dots .owl-dot:hover span {
   background-color: #13c4a1;
 }
 
@@ -1434,13 +2034,18 @@ Main Banner Area CSS
 .banner-img.banner-video .video-box .video-btn {
   background-color: #13c4a1;
 }
-.banner-img.banner-video .video-box .video-btn::after, .banner-img.banner-video .video-box .video-btn::before {
+.banner-img.banner-video .video-box .video-btn::after,
+.banner-img.banner-video .video-box .video-btn::before {
   border: 1px solid #13c4a1;
 }
-.banner-img.banner-video .video-box .video-btn:hover, .banner-img.banner-video .video-box .video-btn:focus {
+.banner-img.banner-video .video-box .video-btn:hover,
+.banner-img.banner-video .video-box .video-btn:focus {
   background-color: #ff612f;
 }
-.banner-img.banner-video .video-box .video-btn:hover::after, .banner-img.banner-video .video-box .video-btn:hover::before, .banner-img.banner-video .video-box .video-btn:focus::after, .banner-img.banner-video .video-box .video-btn:focus::before {
+.banner-img.banner-video .video-box .video-btn:hover::after,
+.banner-img.banner-video .video-box .video-btn:hover::before,
+.banner-img.banner-video .video-box .video-btn:focus::after,
+.banner-img.banner-video .video-box .video-btn:focus::before {
   border-color: #ff612f;
 }
 
@@ -1456,7 +2061,8 @@ Main Banner Area CSS
 }
 
 @keyframes border-transform {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
   }
   14% {
@@ -1589,7 +2195,8 @@ Partner Area CSS
   margin-left: 0;
   margin-right: 0;
 }
-.partner-area .row .col-lg-3, .partner-area .row .col-lg-9 {
+.partner-area .row .col-lg-3,
+.partner-area .row .col-lg-9 {
   padding-left: 0;
   padding-right: 0;
 }
@@ -1675,7 +2282,7 @@ Services Area CSS
   width: 45%;
   height: 215%;
   z-index: -1;
-  background-color: #0F2A36;
+  background-color: #0f2a36;
   transform: skewY(-66deg);
 }
 .services-area.bg-left-shape::before {
@@ -1797,7 +2404,8 @@ Video Presentation Area CSS
   margin-left: auto;
   margin-right: auto;
 }
-.video-box .video-btn::after, .video-box .video-btn::before {
+.video-box .video-btn::after,
+.video-box .video-btn::before {
   content: "";
   display: block;
   position: absolute;
@@ -1826,11 +2434,15 @@ Video Presentation Area CSS
 .video-box .video-btn::after {
   animation: ripple 2s linear 1s infinite;
 }
-.video-box .video-btn:hover, .video-box .video-btn:focus {
+.video-box .video-btn:hover,
+.video-box .video-btn:focus {
   background-color: #13c4a1;
   color: #ffffff;
 }
-.video-box .video-btn:hover::after, .video-box .video-btn:hover::before, .video-box .video-btn:focus::after, .video-box .video-btn:focus::before {
+.video-box .video-btn:hover::after,
+.video-box .video-btn:hover::before,
+.video-box .video-btn:focus::after,
+.video-box .video-btn:focus::before {
   border-color: #13c4a1;
 }
 
@@ -2039,7 +2651,7 @@ FunFacts Area CSS
   margin: auto;
   position: relative;
   margin-bottom: 15px;
-  background: #F6F4FD;
+  background: #f6f4fd;
   border-radius: 100%;
   text-align: center;
 }
@@ -2077,7 +2689,8 @@ FunFacts Area CSS
 .contact-cta-box .default-btn span {
   background-color: #ff612f;
 }
-.contact-cta-box .default-btn:hover i, .contact-cta-box .default-btn:focus i {
+.contact-cta-box .default-btn:hover i,
+.contact-cta-box .default-btn:focus i {
   color: #ffffff;
 }
 
@@ -2383,7 +2996,7 @@ Features Area CSS
   margin: auto;
   position: relative;
   margin-bottom: 20px;
-  background: #F6F4FD;
+  background: #f6f4fd;
   border-radius: 100%;
   text-align: center;
 }
@@ -2586,43 +3199,55 @@ Team Area CSS
   visibility: visible;
 }
 
-.col-lg-3:nth-child(1) .single-team-box .image, .col-lg-3:nth-child(7) .single-team-box .image {
+.col-lg-3:nth-child(1) .single-team-box .image,
+.col-lg-3:nth-child(7) .single-team-box .image {
   border-color: #ffdacf;
 }
-.col-lg-3:nth-child(1) .single-team-box .image .social li a:hover, .col-lg-3:nth-child(7) .single-team-box .image .social li a:hover {
+.col-lg-3:nth-child(1) .single-team-box .image .social li a:hover,
+.col-lg-3:nth-child(7) .single-team-box .image .social li a:hover {
   color: #ffffff;
   background-color: #ff612f;
 }
-.col-lg-3:nth-child(1) .single-team-box .content span, .col-lg-3:nth-child(7) .single-team-box .content span {
+.col-lg-3:nth-child(1) .single-team-box .content span,
+.col-lg-3:nth-child(7) .single-team-box .content span {
   color: #ff612f;
 }
-.col-lg-3:nth-child(1) .single-team-box:hover .image, .col-lg-3:nth-child(7) .single-team-box:hover .image {
+.col-lg-3:nth-child(1) .single-team-box:hover .image,
+.col-lg-3:nth-child(7) .single-team-box:hover .image {
   border-color: #ff612f;
 }
-.col-lg-3:nth-child(3) .single-team-box .image, .col-lg-3:nth-child(5) .single-team-box .image {
+.col-lg-3:nth-child(3) .single-team-box .image,
+.col-lg-3:nth-child(5) .single-team-box .image {
   border-color: #b2b3c3;
 }
-.col-lg-3:nth-child(3) .single-team-box .image .social li a:hover, .col-lg-3:nth-child(5) .single-team-box .image .social li a:hover {
+.col-lg-3:nth-child(3) .single-team-box .image .social li a:hover,
+.col-lg-3:nth-child(5) .single-team-box .image .social li a:hover {
   color: #ffffff;
   background-color: #080a3c;
 }
-.col-lg-3:nth-child(3) .single-team-box .content span, .col-lg-3:nth-child(5) .single-team-box .content span {
+.col-lg-3:nth-child(3) .single-team-box .content span,
+.col-lg-3:nth-child(5) .single-team-box .content span {
   color: #080a3c;
 }
-.col-lg-3:nth-child(3) .single-team-box:hover .image, .col-lg-3:nth-child(5) .single-team-box:hover .image {
+.col-lg-3:nth-child(3) .single-team-box:hover .image,
+.col-lg-3:nth-child(5) .single-team-box:hover .image {
   border-color: #080a3c;
 }
-.col-lg-3:nth-child(4) .single-team-box .image, .col-lg-3:nth-child(6) .single-team-box .image {
+.col-lg-3:nth-child(4) .single-team-box .image,
+.col-lg-3:nth-child(6) .single-team-box .image {
   border-color: #fed2e1;
 }
-.col-lg-3:nth-child(4) .single-team-box .image .social li a:hover, .col-lg-3:nth-child(6) .single-team-box .image .social li a:hover {
+.col-lg-3:nth-child(4) .single-team-box .image .social li a:hover,
+.col-lg-3:nth-child(6) .single-team-box .image .social li a:hover {
   color: #ffffff;
   background-color: #fc4c86;
 }
-.col-lg-3:nth-child(4) .single-team-box .content span, .col-lg-3:nth-child(6) .single-team-box .content span {
+.col-lg-3:nth-child(4) .single-team-box .content span,
+.col-lg-3:nth-child(6) .single-team-box .content span {
   color: #fc4c86;
 }
-.col-lg-3:nth-child(4) .single-team-box:hover .image, .col-lg-3:nth-child(6) .single-team-box:hover .image {
+.col-lg-3:nth-child(4) .single-team-box:hover .image,
+.col-lg-3:nth-child(6) .single-team-box:hover .image {
   border-color: #fc4c86;
 }
 
@@ -2709,7 +3334,10 @@ Team Area CSS
   background-color: #13c4a1;
   color: #ffffff;
 }
-.single-team-member .image .social-link li:nth-child(2) a, .single-team-member .image .social-link li:nth-child(4) a, .single-team-member .image .social-link li:nth-child(6) a, .single-team-member .image .social-link li:nth-child(8) a {
+.single-team-member .image .social-link li:nth-child(2) a,
+.single-team-member .image .social-link li:nth-child(4) a,
+.single-team-member .image .social-link li:nth-child(6) a,
+.single-team-member .image .social-link li:nth-child(8) a {
   transform: scaleX(0);
 }
 .single-team-member:hover .content i {
@@ -2810,7 +3438,10 @@ Feedback Area CSS
 .feedback-slides.owl-theme .owl-item .single-feedback-item .feedback-desc {
   box-shadow: unset;
 }
-.feedback-slides.owl-theme .owl-item.active .single-feedback-item .feedback-desc {
+.feedback-slides.owl-theme
+  .owl-item.active
+  .single-feedback-item
+  .feedback-desc {
   box-shadow: 0 10px 35px 5px rgba(137, 173, 255, 0.15);
 }
 .feedback-slides.owl-theme .owl-nav.disabled + .owl-dots {
@@ -2841,7 +3472,8 @@ Feedback Area CSS
   transform: scale(0);
   transition: 0.5s;
 }
-.feedback-slides.owl-theme .owl-dots .owl-dot.active span::before, .feedback-slides.owl-theme .owl-dots .owl-dot:hover span::before {
+.feedback-slides.owl-theme .owl-dots .owl-dot.active span::before,
+.feedback-slides.owl-theme .owl-dots .owl-dot:hover span::before {
   transform: scale(1);
 }
 
@@ -2948,7 +3580,8 @@ Feedback Area CSS
   transform: scale(0);
   transition: 0.5s;
 }
-.testimonials-slides.owl-theme .owl-dots .owl-dot.active span::before, .testimonials-slides.owl-theme .owl-dots .owl-dot:hover span::before {
+.testimonials-slides.owl-theme .owl-dots .owl-dot.active span::before,
+.testimonials-slides.owl-theme .owl-dots .owl-dot:hover span::before {
   transform: scale(1);
 }
 
@@ -3030,10 +3663,12 @@ Feedback Area CSS
   transition: 0.5s;
   visibility: hidden;
 }
-.testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span, .testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span {
+.testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span,
+.testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span {
   border-color: #ff612f;
 }
-.testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span::before, .testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
+.testimonials-slides-two.owl-theme .owl-dots .owl-dot:hover span::before,
+.testimonials-slides-two.owl-theme .owl-dots .owl-dot.active span::before {
   opacity: 1;
   visibility: visible;
 }
@@ -3121,7 +3756,8 @@ Pricing Area CSS
 .single-pricing-table.left-align {
   text-align: left;
 }
-.single-pricing-table.left-align .pricing-header, .single-pricing-table.left-align .price {
+.single-pricing-table.left-align .pricing-header,
+.single-pricing-table.left-align .price {
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -3207,7 +3843,8 @@ Pricing Area CSS
 .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn span {
   background-color: #ff612f;
 }
-.col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:hover i, .col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:focus i {
+.col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:hover i,
+.col-lg-4:nth-child(3) .single-pricing-table .btn-box .default-btn:focus i {
   color: #080a3c;
 }
 
@@ -3341,7 +3978,8 @@ App Download Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.app-download-content .btn-box .play-store-btn:hover, .app-download-content .btn-box .play-store-btn:focus {
+.app-download-content .btn-box .play-store-btn:hover,
+.app-download-content .btn-box .play-store-btn:focus {
   transform: translateY(-5px);
 }
 .app-download-content .btn-box .apple-store-btn {
@@ -3369,7 +4007,8 @@ App Download Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.app-download-content .btn-box .apple-store-btn:hover, .app-download-content .btn-box .apple-store-btn:focus {
+.app-download-content .btn-box .apple-store-btn:hover,
+.app-download-content .btn-box .apple-store-btn:focus {
   transform: translateY(-5px);
 }
 
@@ -3627,7 +4266,7 @@ Blog Area CSS
   right: 0;
   top: -105px;
 }
-.blog-slides.owl-theme .owl-nav [class*=owl-] {
+.blog-slides.owl-theme .owl-nav [class*="owl-"] {
   color: #ff612f;
   font-size: 35px;
   margin: 0;
@@ -3640,10 +4279,10 @@ Blog Area CSS
   border-radius: 50%;
   transition: 0.5s;
 }
-.blog-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.blog-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
   margin-left: 10px;
 }
-.blog-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.blog-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: #ff612f;
   color: #ffffff;
 }
@@ -3770,7 +4409,8 @@ Blog Details Area CSS
   font-size: 22px;
   font-weight: 500;
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3851,7 +4491,10 @@ Blog Details Area CSS
   font-size: 22px;
   font-weight: 500;
 }
-.comments-area .comment-respond .comment-reply-title #cancel-comment-reply-link {
+.comments-area
+  .comment-respond
+  .comment-reply-title
+  #cancel-comment-reply-link {
   display: inline-block;
 }
 .comments-area .comment-respond .comment-form {
@@ -3875,7 +4518,19 @@ Blog Details Area CSS
   color: #080a3c;
   margin-bottom: 5px;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type="date"],
+.comments-area .comment-respond input[type="time"],
+.comments-area .comment-respond input[type="datetime-local"],
+.comments-area .comment-respond input[type="week"],
+.comments-area .comment-respond input[type="month"],
+.comments-area .comment-respond input[type="text"],
+.comments-area .comment-respond input[type="email"],
+.comments-area .comment-respond input[type="url"],
+.comments-area .comment-respond input[type="password"],
+.comments-area .comment-respond input[type="search"],
+.comments-area .comment-respond input[type="tel"],
+.comments-area .comment-respond input[type="number"],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #ffffff;
@@ -3884,7 +4539,19 @@ Blog Details Area CSS
   outline: 0;
   transition: 0.5s;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
+.comments-area .comment-respond input[type="date"]:focus,
+.comments-area .comment-respond input[type="time"]:focus,
+.comments-area .comment-respond input[type="datetime-local"]:focus,
+.comments-area .comment-respond input[type="week"]:focus,
+.comments-area .comment-respond input[type="month"]:focus,
+.comments-area .comment-respond input[type="text"]:focus,
+.comments-area .comment-respond input[type="email"]:focus,
+.comments-area .comment-respond input[type="url"]:focus,
+.comments-area .comment-respond input[type="password"]:focus,
+.comments-area .comment-respond input[type="search"]:focus,
+.comments-area .comment-respond input[type="tel"]:focus,
+.comments-area .comment-respond input[type="number"]:focus,
+.comments-area .comment-respond textarea:focus {
   border-color: #13c4a1;
 }
 .comments-area .comment-respond .comment-form-author {
@@ -3941,7 +4608,8 @@ Blog Details Area CSS
   font-weight: 500;
   font-size: 15px;
 }
-.comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
+.comments-area .comment-respond .form-submit input:hover,
+.comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
   background-color: #ff612f;
 }
@@ -4123,7 +4791,8 @@ Blog Details Area CSS
   font-size: 14px;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -4133,7 +4802,8 @@ blockquote, .blockquote {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: #080a3c;
   line-height: 1.6;
   margin-bottom: 0;
@@ -4141,10 +4811,12 @@ blockquote p, .blockquote p {
   font-weight: 500;
   font-size: 22px !important;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
   color: #efefef;
   position: absolute;
   left: 50px;
@@ -4157,7 +4829,8 @@ blockquote::before, .blockquote::before {
   font-variant: normal;
   font-size: 135px;
 }
-blockquote::after, .blockquote::after {
+blockquote::after,
+.blockquote::after {
   content: "";
   position: absolute;
   left: 0;
@@ -4261,7 +4934,9 @@ Pagination Area CSS
   font-size: 18px;
   font-weight: 500;
 }
-.pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
+.pagination-area .page-numbers.current,
+.pagination-area .page-numbers:hover,
+.pagination-area .page-numbers:focus {
   background: #13c4a1;
   color: #ffffff;
   box-shadow: 0 2px 10px 0 #d8dde6;
@@ -4589,7 +5264,8 @@ Sidebar Widget Area CSS
   margin-top: 8px;
   margin-right: 4px;
 }
-.widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
+.widget-area .tagcloud a:hover,
+.widget-area .tagcloud a:focus {
   color: #ffffff;
   background-color: #13c4a1;
   border-color: #13c4a1;
@@ -4716,13 +5392,13 @@ Login Area CSS
 }
 .login-content .login-form form .connect-with-social button.google {
   margin-top: 10px;
-  border-color: #EA4335;
-  color: #EA4335;
+  border-color: #ea4335;
+  color: #ea4335;
 }
 .login-content .login-form form .connect-with-social button.google:hover {
-  background-color: #EA4335;
+  background-color: #ea4335;
   color: #ffffff;
-  border-color: #EA4335;
+  border-color: #ea4335;
 }
 .login-content .login-form form .connect-with-social button:hover {
   background-color: #13c4a1;
@@ -4845,13 +5521,13 @@ Signup Area CSS
 }
 .signup-content .signup-form form .connect-with-social button.google {
   margin-top: 10px;
-  border-color: #EA4335;
-  color: #EA4335;
+  border-color: #ea4335;
+  color: #ea4335;
 }
 .signup-content .signup-form form .connect-with-social button.google:hover {
-  background-color: #EA4335;
+  background-color: #ea4335;
   color: #ffffff;
-  border-color: #EA4335;
+  border-color: #ea4335;
 }
 .signup-content .signup-form form .connect-with-social button:hover {
   background-color: #13c4a1;
@@ -4905,7 +5581,9 @@ Features Area CSS
   margin-left: -7px;
   margin-right: -7px;
 }
-.subscribe-content form .row .col-lg-8, .subscribe-content form .row .col-lg-4, .subscribe-content form .row .col-lg-12 {
+.subscribe-content form .row .col-lg-8,
+.subscribe-content form .row .col-lg-4,
+.subscribe-content form .row .col-lg-12 {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -4965,10 +5643,12 @@ Features Area CSS
   position: relative;
   top: 4px;
 }
-.subscribe-content form button:hover, .subscribe-content form button:focus {
+.subscribe-content form button:hover,
+.subscribe-content form button:focus {
   background-color: #13c4a1;
 }
-.subscribe-content form button:hover i, .subscribe-content form button:focus i {
+.subscribe-content form button:hover i,
+.subscribe-content form button:focus i {
   color: #080a3c;
 }
 
@@ -5139,7 +5819,8 @@ Contact Area CSS
   margin-left: -7px;
   margin-right: -7px;
 }
-.contact-form form .row .col-lg-6, .contact-form form .row .col-lg-12 {
+.contact-form form .row .col-lg-6,
+.contact-form form .row .col-lg-12 {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -5175,7 +5856,8 @@ Contact Area CSS
 .contact-form form .default-btn {
   box-shadow: 0px 5px 28.5px 1.5px rgba(255, 97, 47, 0.3) !important;
 }
-.contact-form form .default-btn:hover, .contact-form form .default-btn:focus {
+.contact-form form .default-btn:hover,
+.contact-form form .default-btn:focus {
   box-shadow: 0px 5px 28.5px 1.5px rgba(19, 196, 161, 0.3) !important;
 }
 .contact-form .with-errors ul {
@@ -5721,10 +6403,12 @@ SaaS Home Page CSS
 }
 @keyframes ripple-white {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2), 0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2),
+      0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2);
   }
   100% {
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), 0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 60px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2),
+      0 0 0 40px rgba(255, 255, 255, 0.2), 0 0 0 60px rgba(255, 255, 255, 0);
   }
 }
 /* End Shape rotate */
@@ -5788,7 +6472,7 @@ SaaS Home Page CSS
 /* Overview section */
 .overview-item {
   margin-bottom: 50px;
-  border-bottom: 1px solid #edf0f7;
+  /* border-bottom: 1px solid #edf0f7; */
   padding-bottom: 50px;
 }
 .overview-item:last-child {
@@ -5879,14 +6563,17 @@ SaaS Home Page CSS
   margin-bottom: 10px;
   font-weight: 600;
 }
-.service-details-content ul, .service-details-content ol {
+.service-details-content ul,
+.service-details-content ol {
   padding-left: 17px;
 }
-.service-details-content ul li, .service-details-content ol li {
+.service-details-content ul li,
+.service-details-content ol li {
   line-height: 1.7;
   margin-bottom: 5px;
 }
-.service-details-content ul li:last-child, .service-details-content ol li:last-child {
+.service-details-content ul li:last-child,
+.service-details-content ol li:last-child {
   margin-bottom: 0;
 }
 .service-details-content .service-details-info {
@@ -5932,7 +6619,12 @@ SaaS Home Page CSS
   border-radius: 30px;
   line-height: 32px;
 }
-.service-details-content .service-details-info .single-info-box .social li a:hover {
+.service-details-content
+  .service-details-info
+  .single-info-box
+  .social
+  li
+  a:hover {
   color: #13c4a1;
   transform: translateY(-2px);
 }
@@ -5948,7 +6640,10 @@ SaaS Home Page CSS
   font-size: 14px;
   font-weight: 500;
 }
-.service-details-content .service-details-info .single-info-box .default-btn:hover {
+.service-details-content
+  .service-details-info
+  .single-info-box
+  .default-btn:hover {
   background-color: #ffffff;
   color: #13c4a1;
 }
@@ -5994,7 +6689,8 @@ Digital Agency Banner Area CSS
   min-width: 100%;
   z-index: -2;
 }
-.digital-agency-banner.digital-agency-banner-video .digital-agency-banner-content {
+.digital-agency-banner.digital-agency-banner-video
+  .digital-agency-banner-content {
   position: relative;
   z-index: 3;
   overflow: hidden;
@@ -6241,7 +6937,7 @@ Case Studies Area CSS
   right: 26.88%;
   top: -105px;
 }
-.case-studies-slides.owl-theme .owl-nav [class*=owl-] {
+.case-studies-slides.owl-theme .owl-nav [class*="owl-"] {
   color: #ff612f;
   font-size: 35px;
   margin: 0;
@@ -6254,10 +6950,10 @@ Case Studies Area CSS
   border-radius: 50%;
   transition: 0.5s;
 }
-.case-studies-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.case-studies-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
   margin-left: 10px;
 }
-.case-studies-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.case-studies-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: #ff612f;
   color: #ffffff;
 }
@@ -6303,7 +6999,8 @@ Company Preview Area CSS
   margin-left: auto;
   margin-right: auto;
 }
-.company-preview-video .video-btn::after, .company-preview-video .video-btn::before {
+.company-preview-video .video-btn::after,
+.company-preview-video .video-btn::before {
   content: "";
   display: block;
   position: absolute;
@@ -6332,11 +7029,15 @@ Company Preview Area CSS
 .company-preview-video .video-btn::after {
   animation: ripple 2s linear 1s infinite;
 }
-.company-preview-video .video-btn:hover, .company-preview-video .video-btn:focus {
+.company-preview-video .video-btn:hover,
+.company-preview-video .video-btn:focus {
   background-color: #13c4a1;
   color: #ffffff;
 }
-.company-preview-video .video-btn:hover::after, .company-preview-video .video-btn:hover::before, .company-preview-video .video-btn:focus::after, .company-preview-video .video-btn:focus::before {
+.company-preview-video .video-btn:hover::after,
+.company-preview-video .video-btn:hover::before,
+.company-preview-video .video-btn:focus::after,
+.company-preview-video .video-btn:focus::before {
   border-color: #13c4a1;
 }
 
@@ -6634,14 +7335,20 @@ Top Bar Area CSS
   border-bottom: 1px solid #eeeeee;
   border-radius: 5px;
 }
-.top-bar-social .language-option .language-dropdown-menu .dropdown-item:last-child {
+.top-bar-social
+  .language-option
+  .language-dropdown-menu
+  .dropdown-item:last-child {
   border-bottom: none;
 }
 .top-bar-social .language-option .language-dropdown-menu .dropdown-item img {
   width: 25px;
   margin-right: 10px;
 }
-.top-bar-social .language-option .language-dropdown-menu .dropdown-item.selected {
+.top-bar-social
+  .language-option
+  .language-dropdown-menu
+  .dropdown-item.selected {
   background-color: #13c4a1;
   color: #ffffff;
   border-radius: 5px;
@@ -6670,10 +7377,19 @@ Navbar Area CSS
   margin-left: 20px;
   display: inline-flex;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .search-box {
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .search-box {
   margin-right: 25px;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .search-box i {
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .search-box
+  i {
   font-size: 25px;
   color: #080a3c;
   transition: 0.5s;
@@ -6682,13 +7398,27 @@ Navbar Area CSS
   top: 2px;
   display: inline-block;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .search-box i:hover {
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .search-box
+  i:hover {
   color: #13c4a1;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .default-btn {
-  background-color: #824CF3;
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .default-btn {
+  background-color: #824cf3;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .side-menu-btn i {
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .side-menu-btn
+  i {
   font-size: 35px;
   color: #080a3c;
   cursor: pointer;
@@ -6696,7 +7426,12 @@ Navbar Area CSS
   position: relative;
   top: 2.5px;
 }
-.navbar-area-with-position-relative .strax-nav .navbar .others-options .side-menu-btn i:hover {
+.navbar-area-with-position-relative
+  .strax-nav
+  .navbar
+  .others-options
+  .side-menu-btn
+  i:hover {
   color: #13c4a1;
 }
 
@@ -6805,7 +7540,10 @@ Search Overlay CSS
   letter-spacing: 0.5px;
   color: #080a3c;
 }
-.search-overlay .search-overlay-form form .input-search:focus::-moz-placeholder {
+.search-overlay
+  .search-overlay-form
+  form
+  .input-search:focus::-moz-placeholder {
   color: transparent;
 }
 .search-overlay .search-overlay-form form .input-search:focus::placeholder {
@@ -6983,7 +7721,12 @@ Sidebar Modal CSS
 .sidebarModal.modal .modal-body .contact-form #contactForm .form-group {
   margin-bottom: 20px;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control {
   height: 55px;
   color: #4a6f8a;
   box-shadow: unset !important;
@@ -6994,26 +7737,56 @@ Sidebar Modal CSS
   padding: 10px 15px;
   font-size: 15px;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control::-moz-placeholder {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control::-moz-placeholder {
   color: #4a6f8a;
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control::placeholder {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control::placeholder {
   color: #4a6f8a;
   transition: 0.5s;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control:focus {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control:focus {
   border-color: #13c4a1;
   background-color: transparent;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control:focus::-moz-placeholder {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control:focus::-moz-placeholder {
   color: transparent;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group .form-control:focus::placeholder {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  .form-control:focus::placeholder {
   color: transparent;
 }
-.sidebarModal.modal .modal-body .contact-form #contactForm .form-group textarea.form-control {
+.sidebarModal.modal
+  .modal-body
+  .contact-form
+  #contactForm
+  .form-group
+  textarea.form-control {
   height: auto;
   padding-top: 15px;
 }
@@ -7097,7 +7870,7 @@ SEO Marketing Banner Area CSS
   font-size: 20px;
   position: relative;
   margin-left: inherit;
-  background: #824CF3;
+  background: #824cf3;
   color: #ffffff;
   height: 45px;
   width: 45px;
@@ -7156,7 +7929,7 @@ Features Area CSS
 .sm-features-card {
   margin-bottom: 30px;
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 25px;
   padding: 25px;
   transition: 0.5s;
@@ -7240,7 +8013,7 @@ About Area CSS
   margin-top: 35px;
 }
 .sm-about-content .about-btn .default-btn {
-  background-color: #824CF3;
+  background-color: #824cf3;
 }
 
 .sm-about-shape-1 {
@@ -7400,7 +8173,7 @@ SM Services Area CSS
 
 .sm-services-card {
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 25px;
   padding: 30px 25px;
   transition: 0.5s;
@@ -7493,7 +8266,7 @@ SM Funfacts Area CSS
 }
 
 .sm-funfacts-inner-box {
-  background: linear-gradient(270deg, #93C8E0 0%, #87BADB 100%);
+  background: linear-gradient(270deg, #93c8e0 0%, #87badb 100%);
   border-radius: 15px;
   padding-left: 120px;
   padding-right: 120px;
@@ -7502,7 +8275,7 @@ SM Funfacts Area CSS
   overflow: hidden;
 }
 .sm-funfacts-inner-box.bg-with-linear-gradient {
-  background: linear-gradient(90deg, #FF512F 0%, #DD2476 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
 }
 .sm-funfacts-inner-box.bg-with-linear-gradient .sm-single-funfacts {
   position: relative;
@@ -7533,7 +8306,10 @@ SM Funfacts Area CSS
   font-size: 35px;
   margin-bottom: 8px;
 }
-.sm-funfacts-inner-box.bg-with-linear-gradient .sm-single-funfacts h3 .sign-icon {
+.sm-funfacts-inner-box.bg-with-linear-gradient
+  .sm-single-funfacts
+  h3
+  .sign-icon {
   font-size: 30px;
   position: relative;
   left: -5px;
@@ -7603,7 +8379,7 @@ SM Funfacts Area CSS
 SM Work Area CSS
 =================================================*/
 .sm-work-area .container {
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .sm-work-content h3 {
@@ -7622,7 +8398,7 @@ SM Work Area CSS
   left: 0;
 }
 .sm-work-content .sm-work-inner-card .number span {
-  background: linear-gradient(90deg, #13C4A1 10.98%, #824CF3 87.38%);
+  background: linear-gradient(90deg, #13c4a1 10.98%, #824cf3 87.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7733,7 +8509,7 @@ SM Partner Area CSS
 }
 
 .sm-partner-inner-box {
-  background: linear-gradient(270deg, #EC98A2 0%, #FC96BB 99.29%);
+  background: linear-gradient(270deg, #ec98a2 0%, #fc96bb 99.29%);
   border-radius: 15px;
   padding-left: 50px;
   padding-right: 50px;
@@ -7766,7 +8542,7 @@ SM Partner Area CSS
 }
 
 .is-partner {
-  background: #FEF9F9;
+  background: #fef9f9;
 }
 .is-partner .section-title-with-large-box span {
   color: #080a3c;
@@ -7776,7 +8552,7 @@ SM Partner Area CSS
 }
 
 .me-partner {
-  background-color: #F4F6FC;
+  background-color: #f4f6fc;
 }
 .me-partner .section-title-with-large-box span {
   color: #080a3c;
@@ -7801,7 +8577,7 @@ SM Overview Area CSS
   background-color: #ffffff;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   margin-bottom: 25px;
 }
 .sm-overview-card h3 {
@@ -7824,7 +8600,7 @@ SM Pricing Area CSS
 
 .sm-pricing-card {
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 15px;
   padding: 35px 30px;
   margin-bottom: 30px;
@@ -7878,7 +8654,7 @@ SM Pricing Area CSS
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #A690FC;
+  background-color: #a690fc;
   border-radius: 50%;
 }
 .sm-pricing-card .price-btn {
@@ -8022,7 +8798,7 @@ SM Subscribe Area CSS
   z-index: -1;
 }
 .sm-subscribe-area.me-subscribe::before {
-  background: #F4F6FC;
+  background: #f4f6fc;
   height: 190px;
 }
 .sm-subscribe-area .container-fluid {
@@ -8031,7 +8807,7 @@ SM Subscribe Area CSS
 }
 
 .sm-subscribe-inner-box {
-  background: linear-gradient(270deg, #7B7CD6 0%, #A4A7E3 99.29%);
+  background: linear-gradient(270deg, #7b7cd6 0%, #a4a7e3 99.29%);
   border-radius: 15px;
   padding-left: 50px;
   padding-right: 50px;
@@ -8060,19 +8836,31 @@ SM Subscribe Area CSS
   color: #ffffff;
   border-radius: 5px;
 }
-.sm-subscribe-inner-box .newsletter-form .form-group .input-newsletter::-moz-placeholder {
+.sm-subscribe-inner-box
+  .newsletter-form
+  .form-group
+  .input-newsletter::-moz-placeholder {
   color: #ffffff;
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-.sm-subscribe-inner-box .newsletter-form .form-group .input-newsletter::placeholder {
+.sm-subscribe-inner-box
+  .newsletter-form
+  .form-group
+  .input-newsletter::placeholder {
   color: #ffffff;
   transition: 0.5s;
 }
-.sm-subscribe-inner-box .newsletter-form .form-group .input-newsletter:focus::-moz-placeholder {
+.sm-subscribe-inner-box
+  .newsletter-form
+  .form-group
+  .input-newsletter:focus::-moz-placeholder {
   color: transparent;
 }
-.sm-subscribe-inner-box .newsletter-form .form-group .input-newsletter:focus::placeholder {
+.sm-subscribe-inner-box
+  .newsletter-form
+  .form-group
+  .input-newsletter:focus::placeholder {
   color: transparent;
 }
 .sm-subscribe-inner-box .newsletter-form button {
@@ -8099,7 +8887,7 @@ SM Subscribe Area CSS
   margin-top: 10px;
 }
 .sm-subscribe-inner-box.with-linear-gradient-color {
-  background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #f09819 100%);
 }
 
 .sm-subscribe-shape-1 {
@@ -8232,7 +9020,7 @@ IT Solution Banner Slides Area CSS
   left: 0;
   right: 0;
   bottom: 0;
-  background: #FEF9F9;
+  background: #fef9f9;
   width: 100%;
   height: 350px;
   z-index: -1;
@@ -8286,7 +9074,7 @@ IT Solution Banner Slides Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.is-banner-slides.owl-theme .owl-nav [class*=owl-] {
+.is-banner-slides.owl-theme .owl-nav [class*="owl-"] {
   margin: 10px 0;
   padding: 0;
   display: block;
@@ -8302,14 +9090,14 @@ IT Solution Banner Slides Area CSS
   border-radius: 50px;
   transition: 0.5s;
 }
-.is-banner-slides.owl-theme .owl-nav [class*=owl-] i {
+.is-banner-slides.owl-theme .owl-nav [class*="owl-"] i {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-.is-banner-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.is-banner-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: #13c4a1;
   color: #ffffff;
 }
@@ -8318,12 +9106,12 @@ IT Solution Banner Slides Area CSS
 IS Features Area CSS
 =================================================*/
 .is-features-area {
-  background: #FEF9F9;
+  background: #fef9f9;
 }
 
 .is-features-card {
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 25px;
   padding: 80px 35px 35px 35px;
   position: relative;
@@ -8335,7 +9123,7 @@ IS Features Area CSS
   top: 25px;
 }
 .is-features-card .number span {
-  background: linear-gradient(90deg, #13C4A1 10.98%, #824CF3 87.38%);
+  background: linear-gradient(90deg, #13c4a1 10.98%, #824cf3 87.38%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8453,7 +9241,7 @@ IS Services Area CSS
 }
 
 .is-services-card {
-  background: #0C1E34;
+  background: #0c1e34;
   border-radius: 15px;
   padding: 30px;
   transition: 0.5s;
@@ -8507,7 +9295,8 @@ IS Services Area CSS
   transition: 0.5s;
   border-radius: 10px;
 }
-.is-services-slides.owl-theme .owl-dots .owl-dot.active span, .is-services-slides.owl-theme .owl-dots .owl-dot:hover span {
+.is-services-slides.owl-theme .owl-dots .owl-dot.active span,
+.is-services-slides.owl-theme .owl-dots .owl-dot:hover span {
   background-color: #13c4a1;
   width: 30px;
 }
@@ -8578,7 +9367,7 @@ IS Expertise Area CSS
   margin-bottom: 20px;
 }
 .is-expertise-content .expertise-funfacts {
-  background: #EFE8E4;
+  background: #efe8e4;
   border-radius: 15px;
   padding: 50px;
   margin-top: 10px;
@@ -8607,14 +9396,14 @@ IS Expertise Area CSS
   margin-bottom: 0;
 }
 .is-expertise-content .expertise-funfacts.bg-DEEEFA {
-  background-color: #DEEEFA;
+  background-color: #deeefa;
 }
 
 /*================================================
 IS Case Studies Area CSS
 =================================================*/
 .is-case-studies-area {
-  background-color: #EAF0EF;
+  background-color: #eaf0ef;
 }
 .is-case-studies-area .section-title-with-large-box {
   max-width: 100%;
@@ -8676,11 +9465,13 @@ IS Case Studies Area CSS
   transform: translateY(-50%);
   transition: 0.5s;
 }
-.is-case-studies-list-tabs .nav .nav-item .nav-link:hover, .is-case-studies-list-tabs .nav .nav-item .nav-link.active {
+.is-case-studies-list-tabs .nav .nav-item .nav-link:hover,
+.is-case-studies-list-tabs .nav .nav-item .nav-link.active {
   background-color: #13c4a1;
   color: #ffffff;
 }
-.is-case-studies-list-tabs .nav .nav-item .nav-link:hover .number, .is-case-studies-list-tabs .nav .nav-item .nav-link.active .number {
+.is-case-studies-list-tabs .nav .nav-item .nav-link:hover .number,
+.is-case-studies-list-tabs .nav .nav-item .nav-link.active .number {
   background-color: #ffffff;
   color: #13c4a1;
 }
@@ -8723,7 +9514,7 @@ IS Testimonials Area CSS
 }
 
 .is-testimonials-card p {
-  background-color: #0C1E34;
+  background-color: #0c1e34;
   padding: 35px 50px 70px;
   border-radius: 15px;
   color: #ffffff;
@@ -8804,7 +9595,7 @@ IS Team Area CSS
   z-index: 1;
 }
 .is-team-area.me-team {
-  background: #F4F6FC;
+  background: #f4f6fc;
 }
 
 .is-team-content {
@@ -8904,7 +9695,10 @@ IS Team Area CSS
   background-color: #13c4a1;
   color: #ffffff;
 }
-.is-team-member .image .social-link li:nth-child(2) a, .is-team-member .image .social-link li:nth-child(4) a, .is-team-member .image .social-link li:nth-child(6) a, .is-team-member .image .social-link li:nth-child(8) a {
+.is-team-member .image .social-link li:nth-child(2) a,
+.is-team-member .image .social-link li:nth-child(4) a,
+.is-team-member .image .social-link li:nth-child(6) a,
+.is-team-member .image .social-link li:nth-child(8) a {
   transform: scaleX(0);
 }
 .is-team-member .image img {
@@ -8972,7 +9766,7 @@ IS Team Area CSS
 IS Analysis Area CSS
 =================================================*/
 .is-analysis-area {
-  background: #FEF9F9;
+  background: #fef9f9;
   overflow: hidden;
 }
 
@@ -9020,7 +9814,7 @@ IS Analysis Area CSS
 .is-analysis-content .form-group .form-control {
   display: inline-block;
   background-color: #ffffff;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   border-radius: 5px;
   height: 55px;
   outline: 0;
@@ -9097,7 +9891,7 @@ Marketing Experts Banner Area CSS
   padding-top: 50px;
   padding-bottom: 50px;
   overflow: hidden;
-  border-top: 1px solid #E8EBEB;
+  border-top: 1px solid #e8ebeb;
 }
 .me-banner-area .container-fluid {
   padding-left: 35px;
@@ -9114,7 +9908,7 @@ Marketing Experts Banner Area CSS
   font-size: 75px;
   font-weight: bold;
   margin-bottom: 15px;
-  background: linear-gradient(90deg, #FF512F 0%, #DD2476 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -9151,7 +9945,7 @@ Marketing Experts Banner Area CSS
   font-size: 20px;
   position: relative;
   margin-left: inherit;
-  background: linear-gradient(90deg, #8E2DE2 0%, #4A00E0 100%);
+  background: linear-gradient(90deg, #8e2de2 0%, #4a00e0 100%);
   color: #ffffff;
   height: 45px;
   width: 45px;
@@ -9219,7 +10013,7 @@ Marketing Experts Banner Area CSS
   height: 100%;
   top: 0;
   left: 50%;
-  background: #E8EBEB;
+  background: #e8ebeb;
   overflow: hidden;
   opacity: 0.8;
 }
@@ -9231,7 +10025,12 @@ Marketing Experts Banner Area CSS
   width: 100%;
   top: -50%;
   left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #13c4a1 75%, #13c4a1 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #13c4a1 75%,
+    #13c4a1 100%
+  );
   animation: run 7s 0s infinite;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
@@ -9276,7 +10075,7 @@ ME Features Area CSS
   height: 90px;
   width: 90px;
   line-height: 90px;
-  background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #f09819 100%);
   color: #ffffff;
   font-size: 45px;
   text-align: center;
@@ -9292,13 +10091,13 @@ ME Features Area CSS
   margin-bottom: 0;
 }
 .me-features-card.bg-two i {
-  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
 }
 .me-features-card.bg-three i {
-  background: linear-gradient(90deg, #7F00FF 0%, #E100FF 100%);
+  background: linear-gradient(90deg, #7f00ff 0%, #e100ff 100%);
 }
 .me-features-card.bg-four i {
-  background: linear-gradient(90deg, #FF512F 0%, #DD2476 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
 }
 .me-features-card:hover {
   transform: translateY(-5px);
@@ -9312,7 +10111,7 @@ ME About Area CSS
   z-index: 1;
 }
 .me-about-area .container {
-  border-top: 1px solid #E8EBEB;
+  border-top: 1px solid #e8ebeb;
 }
 
 .me-about-content {
@@ -9354,7 +10153,7 @@ ME About Area CSS
   height: 25px;
   width: 25px;
   line-height: 25px;
-  background: linear-gradient(90deg, #8E2DE2 0%, #4A00E0 100%);
+  background: linear-gradient(90deg, #8e2de2 0%, #4a00e0 100%);
   text-align: center;
   border-radius: 30px;
   color: #ffffff;
@@ -9364,13 +10163,13 @@ ME About Area CSS
   transform: translateY(-50%);
 }
 .me-about-content .list li.color-two i {
-  background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #f09819 100%);
 }
 .me-about-content .list li.color-three i {
-  background: linear-gradient(90deg, #FF512F 0%, #DD2476 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
 }
 .me-about-content .list li.color-four i {
-  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
 }
 .me-about-content .about-btn {
   margin-top: 35px;
@@ -9445,7 +10244,7 @@ Me Choose Area CSS
   height: 25px;
   width: 25px;
   line-height: 25px;
-  background: linear-gradient(90deg, #8E2DE2 0%, #4A00E0 100%);
+  background: linear-gradient(90deg, #8e2de2 0%, #4a00e0 100%);
   text-align: center;
   border-radius: 30px;
   color: #ffffff;
@@ -9462,10 +10261,10 @@ Me Choose Area CSS
   margin-bottom: 0;
 }
 .me-choose-content .choose-inner-card.bg-two i {
-  background: linear-gradient(90deg, #FF512F 0%, #F09819 100%);
+  background: linear-gradient(90deg, #ff512f 0%, #f09819 100%);
 }
 .me-choose-content .choose-inner-card.bg-three i {
-  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
 }
 
 /*================================================
@@ -9491,13 +10290,20 @@ Footer Area CSS
   color: #13c4a1;
   margin-bottom: 15px;
 }
-.footer-area-with-black-color .single-footer-widget .footer-contact-info li:last-child {
+.footer-area-with-black-color
+  .single-footer-widget
+  .footer-contact-info
+  li:last-child {
   margin-bottom: 0;
 }
 .footer-area-with-black-color .single-footer-widget .footer-contact-info li a {
   color: #ffffff;
 }
-.footer-area-with-black-color .single-footer-widget .footer-contact-info li a:hover {
+.footer-area-with-black-color
+  .single-footer-widget
+  .footer-contact-info
+  li
+  a:hover {
   color: #ff612f;
 }
 .footer-area-with-black-color .single-footer-widget .social li a {
@@ -9518,7 +10324,10 @@ Footer Area CSS
 .footer-area-with-black-color .single-footer-widget .services-list li {
   margin-bottom: 18px;
 }
-.footer-area-with-black-color .single-footer-widget .services-list li:last-child {
+.footer-area-with-black-color
+  .single-footer-widget
+  .services-list
+  li:last-child {
   margin-bottom: 0;
 }
 .footer-area-with-black-color .single-footer-widget .services-list li a {
@@ -9526,7 +10335,11 @@ Footer Area CSS
   color: #ffffff;
   padding-left: 18px;
 }
-.footer-area-with-black-color .single-footer-widget .services-list li a::before {
+.footer-area-with-black-color
+  .single-footer-widget
+  .services-list
+  li
+  a::before {
   position: absolute;
   content: "";
   background-color: #13c4a1;
@@ -9543,7 +10356,10 @@ Footer Area CSS
 .footer-area-with-black-color .single-footer-widget .support-list li {
   margin-bottom: 18px;
 }
-.footer-area-with-black-color .single-footer-widget .support-list li:last-child {
+.footer-area-with-black-color
+  .single-footer-widget
+  .support-list
+  li:last-child {
   margin-bottom: 0;
 }
 .footer-area-with-black-color .single-footer-widget .support-list li a {
@@ -9571,7 +10387,11 @@ Footer Area CSS
   margin: 25px auto 0;
   padding-right: 65px;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .form-group .input-newsletter {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .form-group
+  .input-newsletter {
   display: inline-block;
   background-color: transparent;
   height: 60px;
@@ -9584,19 +10404,35 @@ Footer Area CSS
   color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .form-group .input-newsletter::-moz-placeholder {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .form-group
+  .input-newsletter::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
   -moz-transition: 0.5s;
   transition: 0.5s;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .form-group .input-newsletter::placeholder {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .form-group
+  .input-newsletter::placeholder {
   color: rgba(255, 255, 255, 0.5);
   transition: 0.5s;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .form-group .input-newsletter:focus::-moz-placeholder {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .form-group
+  .input-newsletter:focus::-moz-placeholder {
   color: transparent;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .form-group .input-newsletter:focus::placeholder {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .form-group
+  .input-newsletter:focus::placeholder {
   color: transparent;
 }
 .footer-area-with-black-color .single-footer-widget .newsletter-form button {
@@ -9614,16 +10450,22 @@ Footer Area CSS
   transition: 0.5s;
   border-radius: 5px;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form button:hover {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  button:hover {
   background-color: #ff612f;
 }
-.footer-area-with-black-color .single-footer-widget .newsletter-form .validation-danger {
+.footer-area-with-black-color
+  .single-footer-widget
+  .newsletter-form
+  .validation-danger {
   color: #ffffff;
   font-size: 15px;
   margin-top: 10px;
 }
 .footer-area-with-black-color .copyright-area p a {
-  color: #13C4A1;
+  color: #13c4a1;
 }
 
 .footer-shape-1 {
@@ -9655,4 +10497,4 @@ Footer Area CSS
   animation-timing-function: linear;
 }
 
-/* End "SEO Marketing Demo" "IT Solution Demo" "Marketing Experts Demo" "CSS" *//*# sourceMappingURL=style.css.map */
+/* End "SEO Marketing Demo" "IT Solution Demo" "Marketing Experts Demo" "CSS" */ /*# sourceMappingURL=style.css.map */

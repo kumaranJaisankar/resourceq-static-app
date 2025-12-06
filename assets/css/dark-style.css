@@ -211,7 +211,7 @@
   border-color: #080a3c;
 }
 .theme-dark .overview-item {
-  border-bottom-color: #1d1b1b;
+  /* border-bottom-color: #1d1b1b; */
 }
 .theme-dark .overview-content ul li {
   color: #e1e1e1;
