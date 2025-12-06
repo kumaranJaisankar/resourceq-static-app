@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Animate Min CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- BoxIcons Min CSS -->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css" />
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- Odometer Min CSS -->
+    <link rel="stylesheet" href="assets/css/odometer.min.css" />
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <!-- Magnific Popup Min CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Dark Style CSS -->
+    <link rel="stylesheet" href="assets/css/dark-style.css" />
+
+    <title>ResourceQ</title>
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        color: #e5e7eb;
+        background-color: #020617;
+      }
+      .navbar-area {
+        backdrop-filter: blur(18px);
+        background: linear-gradient(90deg, #030b18, #041326) !important;
+        box-shadow: 0 18px 45px rgba(3, 15, 36, 0.88);
+      }
+      .default-btn {
+        border-radius: 999px !important;
+        padding: 12px 32px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.02em;
+        background: linear-gradient(
+          135deg,
+          #1fb6ff,
+          #38bdf8,
+          #ff7a45
+        ) !important;
+        box-shadow: 0 14px 40px rgba(0, 0, 0, 0.75);
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .default-btn:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 20px 55px rgba(0, 0, 0, 0.9);
+        background: linear-gradient(135deg, #ff7a45, #ff7a45) !important;
+        color: #fff;
+      }
+      .default-btn i {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        transform: none;
+        margin-right: 0;
+        font-size: 18px;
+        color: #fff;
+        flex-shrink: 0;
+      }
+      .default-btn:hover i {
+        color: #fff;
+      }
+
+      .saas-banner {
+        position: relative;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background: radial-gradient(
+            circle at 0% 0%,
+            rgba(31, 182, 255, 0.18),
+            transparent 55%
+          ),
+          radial-gradient(
+            circle at 100% 0%,
+            rgba(56, 189, 248, 0.22),
+            transparent 55%
+          ),
+          radial-gradient(
+            circle at 0% 100%,
+            rgba(255, 122, 69, 0.16),
+            transparent 45%
+          ),
+          linear-gradient(
+            135deg,
+            #020617 0%,
+            #020617 40%,
+            #030b18 70%,
+            #050f24 100%
+          );
+      }
+      .saas-banner::before {
+        content: "";
+        position: absolute;
+        inset: -10%;
+        background: radial-gradient(
+          circle at 20% 20%,
+          rgba(59, 130, 246, 0.3),
+          transparent 60%
+        );
+        opacity: 0.35;
+      }
+      .saas-banner .container {
+        position: relative;
+        z-index: 2;
+      }
+
+      .intro-area,
+      .program-details-area {
+        position: relative;
+        overflow: hidden;
+        background: radial-gradient(
+            circle at 0% 0%,
+            rgba(31, 182, 255, 0.18),
+            transparent 55%
+          ),
+          radial-gradient(
+            circle at 100% 100%,
+            rgba(255, 122, 69, 0.18),
+            transparent 55%
+          ),
+          #020617;
+        background-attachment: fixed;
+      }
+      .program-floating {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .intro-floating {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .in-fx {
+        position: absolute;
+        opacity: 0.1;
+        filter: drop-shadow(0 10px 20px rgba(2, 6, 23, 0.6));
+        mix-blend-mode: soft-light;
+      }
+      .in-a {
+        color: #38bdf8;
+        animation: gta 14s ease-in-out infinite;
+      }
+      .in-b {
+        color: #6366f1;
+        animation: gtb 18s ease-in-out infinite;
+      }
+      .in-c {
+        color: #ff7a45;
+        animation: gtc 20s ease-in-out infinite;
+      }
+      .intro-shell {
+        position: relative;
+        z-index: 2;
+        max-width: 960px;
+        margin-top: 4rem;
+        padding: 32px 28px;
+        border-radius: 26px;
+        background: rgba(15, 23, 42, 0.72);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        box-shadow: 0 26px 90px rgba(2, 6, 23, 0.85);
+      }
+      .intro-shell h2 {
+        color: #e5e7eb;
+        letter-spacing: -0.02em;
+      }
+      .intro-shell p {
+        color: #cbd5f5;
+      }
+
+      .gt-floating {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .gt-fx {
+        position: absolute;
+        opacity: 0.12;
+        filter: drop-shadow(0 10px 20px rgba(2, 6, 23, 0.6));
+        mix-blend-mode: soft-light;
+      }
+      .gt-a {
+        color: #38bdf8;
+        animation: gta 12s ease-in-out infinite;
+      }
+      .gt-b {
+        color: #6366f1;
+        animation: gtb 16s ease-in-out infinite;
+      }
+      .gt-c {
+        color: #ff7a45;
+        animation: gtc 18s ease-in-out infinite;
+      }
+      @keyframes gta {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-22px) translateX(12px) rotate(10deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+      @keyframes gtb {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-28px) translateX(-14px) rotate(-10deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+      @keyframes gtc {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-18px) translateX(10px) rotate(8deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+
+      .features-area,
+      .services-area {
+        position: relative;
+        overflow: hidden;
+      }
+      .overview-area {
+        position: relative;
+        overflow: hidden;
+        background: radial-gradient(
+            circle at 5% 0%,
+            rgba(31, 182, 255, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            circle at 95% 100%,
+            rgba(255, 122, 69, 0.18),
+            transparent 60%
+          ),
+          rgba(2, 6, 23, 0.96);
+        background-attachment: fixed;
+      }
+      .overview-floating {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .ov-fx {
+        position: absolute;
+        opacity: 0.1;
+        filter: drop-shadow(0 10px 20px rgba(2, 6, 23, 0.6));
+        mix-blend-mode: soft-light;
+      }
+      .ov-a {
+        color: #38bdf8;
+        animation: ova 16s ease-in-out infinite;
+      }
+      .ov-b {
+        color: #6366f1;
+        animation: ovb 20s ease-in-out infinite;
+      }
+      .ov-c {
+        color: #ff7a45;
+        animation: ovc 22s ease-in-out infinite;
+      }
+      @keyframes ova {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-20px) translateX(12px) rotate(10deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+      @keyframes ovb {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-26px) translateX(-12px) rotate(-10deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+      @keyframes ovc {
+        0% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+        50% {
+          transform: translateY(-16px) translateX(10px) rotate(8deg);
+        }
+        100% {
+          transform: translateY(0) translateX(0) rotate(0);
+        }
+      }
+
+      .overview-item {
+        position: relative;
+        z-index: 2;
+      }
+      .overview-left-img img,
+      .overview-right-img img {
+        border-radius: 22px;
+        box-shadow: 0 28px 90px rgba(2, 6, 23, 0.85);
+        transform: translate3d(0, 10px, 0);
+        animation: ovFloat 12s ease-in-out infinite;
+      }
+      @keyframes ovFloat {
+        0% {
+          transform: translate3d(0, 10px, 0);
+        }
+        50% {
+          transform: translate3d(0, -6px, 0);
+        }
+        100% {
+          transform: translate3d(0, 10px, 0);
+        }
+      }
+
+      .overview-content {
+        position: relative;
+        z-index: 2;
+        background: rgba(15, 23, 42, 0.72);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        border-radius: 22px;
+        padding: 22px;
+        box-shadow: 0 22px 70px rgba(2, 6, 23, 0.85);
+      }
+      .overview-content .number {
+        background: linear-gradient(120deg, #38bdf8, #6366f1);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;
+      }
+      .overview-content ul li {
+        opacity: 0;
+        transform: translateY(8px);
+        animation: ovRise 0.6s ease forwards;
+      }
+      .overview-content ul li:nth-child(1) {
+        animation-delay: 0.05s;
+      }
+      .overview-content ul li:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      .overview-content ul li:nth-child(3) {
+        animation-delay: 0.15s;
+      }
+      .overview-content ul li:nth-child(4) {
+        animation-delay: 0.2s;
+      }
+      .overview-content ul li:nth-child(5) {
+        animation-delay: 0.25s;
+      }
+      .overview-content ul li:nth-child(6) {
+        animation-delay: 0.3s;
+      }
+      .overview-content ul li:nth-child(7) {
+        animation-delay: 0.35s;
+      }
+      .overview-content ul li:nth-child(8) {
+        animation-delay: 0.4s;
+      }
+      .overview-content ul li:nth-child(9) {
+        animation-delay: 0.45s;
+      }
+      @keyframes ovRise {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .features-area.bg-f4f6fc,
+      .features-card-section.bg-f8fbfa {
+        background: radial-gradient(
+            circle at top,
+            rgba(31, 182, 255, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            circle at bottom,
+            rgba(255, 122, 69, 0.18),
+            transparent 60%
+          ),
+          rgba(2, 6, 23, 0.96);
+        background-attachment: fixed;
+      }
+      .features-box,
+      .single-features-card,
+      .single-services-box {
+        border-radius: 22px;
+        background: rgba(15, 23, 42, 0.72);
+        border: 1px solid rgba(148, 163, 184, 0.25);
+        box-shadow: 0 22px 70px rgba(2, 6, 23, 0.85);
+        padding: 24px;
+        transition: transform 0.22s ease, box-shadow 0.22s ease;
+      }
+      .features-box:hover,
+      .single-features-card:hover,
+      .single-services-box:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 28px 90px rgba(2, 6, 23, 0.95);
+      }
+      .section-title h2 {
+        color: #e5e7eb;
+        letter-spacing: -0.02em;
+      }
+      .section-title p {
+        color: #cbd5f5;
+      }
+
+      .go-top {
+        background: linear-gradient(135deg, #38bdf8, #6366f1);
+        box-shadow: 0 18px 45px rgba(37, 99, 235, 0.8);
+      }
+      .go-top:hover {
+        background: linear-gradient(135deg, #ff7a45, #ff7a45);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Dark/Light Toggle -->
+    <div class="dark-version">
+      <label id="switch" class="switch">
+        <input type="checkbox" onchange="toggleTheme()" id="slider" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <!-- Start Preloader Area -->
+    <div class="preloader-area">
+      <div class="spinner">
+        <div class="inner">
+          <div class="disc"></div>
+          <div class="disc"></div>
+          <div class="disc"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Preloader Area -->
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area bg-white">
+      <div class="strax-responsive-nav">
+        <div class="container">
+          <div class="strax-responsive-menu">
+            <div class="logo black-logo">
+              <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="logo white-logo">
+              <a href="index.html">
+                <img src="assets/img/white-logo.png" alt="logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="strax-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand black-logo" href="index.html">
+              <img src="assets/img/logo.png" alt="logo" />
+            </a>
+            <a class="navbar-brand white-logo" href="index.html">
+              <img src="assets/img/white-logo.png" alt="logo" />
+            </a>
+
+            <div
+              class="collapse navbar-collapse mean-menu"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link"> Home </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="services.html" class="nav-link active"
+                    >Services <i class="bx bx-chevron-down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a href="graduate-training.html" class="nav-link active"
+                        >Graduate Training</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="corporate-partnerships.html" class="nav-link"
+                        >Corporate Partnerships</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        href="staff-augmentation-recruitment.html"
+                        class="nav-link"
+                        >Staff Augmentation & Recruitment</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="software-development.html" class="nav-link"
+                        >Software Development</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+              </ul>
+              <div class="others-options">
+                <a href="contact.html" class="default-btn"
+                  ><i class="bx bxs-hot"></i>Partner with Us<span></span
+                ></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="others-option-for-responsive">
+        <div class="container">
+          <div class="dot-menu">
+            <div class="inner">
+              <div class="circle circle-one"></div>
+              <div class="circle circle-two"></div>
+              <div class="circle circle-three"></div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="option-inner">
+              <div class="others-options">
+                <a href="contact.html" class="default-btn">
+                  <i class="bx bxs-hot"></i>
+                  Partner with Us
+                  <span></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Start SaaS Main Banner -->
+    <div class="saas-banner">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="container max-width-1290">
+            <div class="row align-items-center pt-5">
+              <div class="col-lg-6 col-md-12">
+                <div class="saas-image mt-70">
+                  <img
+                    src="assets/img/saas-shape/arrow.png"
+                    class="wow fadeInDown"
+                    data-wow-delay="0.6s"
+                    alt="arrow"
+                  />
+                  <img
+                    src="assets/img/saas-shape/box1.png"
+                    class="wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.6s"
+                    alt="box1"
+                  />
+                  <img
+                    src="assets/img/saas-shape/boy1.png"
+                    class="wow animate__animated animate__fadeInLeft"
+                    data-wow-delay="0.6s"
+                    alt="boy1"
+                  />
+                  <img
+                    src="assets/img/saas-shape/boy2.png"
+                    class="wow animate__animated animate__zoomIn"
+                    data-wow-delay="0.6s"
+                    alt="boy2"
+                  />
+                  <img
+                    src="assets/img/saas-shape/boy3.png"
+                    class="wow bounceIn"
+                    data-wow-delay="0.6s"
+                    alt="boy3"
+                  />
+                  <img
+                    src="assets/img/saas-shape/digital-screen.png"
+                    class="wow fadeInDown"
+                    data-wow-delay="0.6s"
+                    alt="digital-screen"
+                  />
+                  <img
+                    src="assets/img/saas-shape/filter1.png"
+                    class="wow animate__animated animate__zoomIn"
+                    data-wow-delay="0.6s"
+                    alt="filter1"
+                  />
+                  <img
+                    src="assets/img/saas-shape/filter2.png"
+                    class="wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.6s"
+                    alt="filter2"
+                  />
+                  <img
+                    src="assets/img/saas-shape/filter3.png"
+                    class="wow rotateIn"
+                    data-wow-delay="0.6s"
+                    alt="filter3"
+                  />
+                  <img
+                    src="assets/img/saas-shape/girl1.png"
+                    class="wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.6s"
+                    alt="girl1"
+                  />
+                  <img
+                    src="assets/img/saas-shape/girl2.png"
+                    class="wow animate__animated animate__zoomIn"
+                    data-wow-delay="0.6s"
+                    alt="girl2"
+                  />
+                  <img
+                    src="assets/img/saas-shape/monitor.png"
+                    class="wow animate__animated animate__zoomIn"
+                    data-wow-delay="0.6s"
+                    alt="monitor"
+                  />
+
+                  <!-- Main image -->
+                  <img
+                    src="assets/img/saas-shape/main-image.png"
+                    class="wow animate__animated animate__zoomIn"
+                    data-wow-delay="0.6s"
+                    alt="main-image.png"
+                  />
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                <div class="hero-content pl-4">
+                  <h1>
+                    Ignite Your Potential: Become a Future-Ready IT Professional
+                  </h1>
+                  <p>
+                    Our comprehensive training programs equip you with the
+                    skills and knowledge to succeed in today's competitive job
+                    market.
+                  </p>
+
+                  <div class="banner-btn">
+                    <div class="d-flex">
+                      <a href="contact.html" class="default-btn">
+                        <i class="bx bxs-hot text-white"></i>
+                        Get Started
+                        <span></span>
+                      </a>
+
+                      <!-- <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"> 
+                                                <i class='bx bxs-right-arrow'></i> Watch Video 
+                                            </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shape-rotate rotateme">
+        <img src="assets/img/saas-shape/shape-rotate.png" alt="img" />
+      </div>
+
+      <div id="particles-js"></div>
+      <div class="gt-floating">
+        <i
+          class="bx bx-star gt-fx gt-a"
+          style="left: 6%; top: 20%; font-size: 52px; animation-delay: -1s"
+        ></i>
+        <i
+          class="bx bx-bolt-circle gt-fx gt-b"
+          style="left: 20%; top: 72%; font-size: 64px; animation-delay: -3s"
+        ></i>
+        <i
+          class="bx bx-code-alt gt-fx gt-c"
+          style="left: 34%; top: 26%; font-size: 48px; animation-delay: -2s"
+        ></i>
+        <i
+          class="bx bx-planet gt-fx gt-a"
+          style="left: 52%; top: 60%; font-size: 56px; animation-delay: -1.5s"
+        ></i>
+        <i
+          class="bx bx-chip gt-fx gt-b"
+          style="left: 70%; top: 18%; font-size: 60px; animation-delay: -2.8s"
+        ></i>
+        <i
+          class="bx bx-dna gt-fx gt-c"
+          style="left: 86%; top: 32%; font-size: 58px; animation-delay: -3.6s"
+        ></i>
+      </div>
+    </div>
+    <!-- End SaaS Main Banner -->
+
+    <!-- Start Intro Area -->
+    <section class="intro-area ptb-120">
+      <div class="container max-width-1290 position-relative">
+        <div class="intro-floating">
+          <i
+            class="bx bx-star in-fx in-a"
+            style="left: 6%; top: 18%; font-size: 42px; animation-delay: -1s"
+          ></i>
+          <i
+            class="bx bx-bolt-circle in-fx in-b"
+            style="left: 20%; top: 70%; font-size: 52px; animation-delay: -3s"
+          ></i>
+          <i
+            class="bx bx-code-alt in-fx in-c"
+            style="left: 34%; top: 26%; font-size: 40px; animation-delay: -2s"
+          ></i>
+          <i
+            class="bx bx-planet in-fx in-a"
+            style="left: 52%; top: 54%; font-size: 46px; animation-delay: -1.5s"
+          ></i>
+          <i
+            class="bx bx-chip in-fx in-b"
+            style="left: 70%; top: 22%; font-size: 48px; animation-delay: -2.8s"
+          ></i>
+          <i
+            class="bx bx-dna in-fx in-c"
+            style="left: 86%; top: 28%; font-size: 50px; animation-delay: -3.6s"
+          ></i>
+        </div>
+        <div class="intro-shell text-center mx-auto">
+          <h2 class="mb-2">Graduate Training Program: Launch Your IT Career</h2>
+          <p class="mt-3 mb-0">
+            Are you a recent graduate seeking to kickstart your IT career?
+            ResourceQ offers a range of specialized training programs designed
+            to empower you with in-demand skills. Our expert-led curriculum,
+            coupled with hands-on projects, will prepare you to excel in your
+            chosen IT field.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Intro Area -->
+
+    <!-- Start Services Area -->
+    <section class="services-area program-details-area ptb-100">
+      <div class="program-floating">
+        <i
+          class="bx bx-star in-fx in-a"
+          style="left: 5%; top: 15%; font-size: 38px; animation-delay: -1s"
+        ></i>
+        <i
+          class="bx bx-bolt-circle in-fx in-b"
+          style="left: 18%; top: 75%; font-size: 48px; animation-delay: -3s"
+        ></i>
+        <i
+          class="bx bx-code-alt in-fx in-c"
+          style="left: 32%; top: 25%; font-size: 42px; animation-delay: -2s"
+        ></i>
+        <i
+          class="bx bx-planet in-fx in-a"
+          style="left: 55%; top: 60%; font-size: 50px; animation-delay: -1.5s"
+        ></i>
+        <i
+          class="bx bx-chip in-fx in-b"
+          style="left: 75%; top: 20%; font-size: 45px; animation-delay: -2.8s"
+        ></i>
+        <i
+          class="bx bx-dna in-fx in-c"
+          style="left: 88%; top: 35%; font-size: 48px; animation-delay: -3.6s"
+        ></i>
+      </div>
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div
+            class="services-image wow animate__animated animate__fadeInLeft"
+            data-wow-delay=".3s"
+          >
+            <div class="image h-100">
+              <dotlottie-wc
+                src="https://lottie.host/87756074-1bea-4223-b75d-428c227d5d36/0gLywp8mIC.lottie"
+                autoplay
+                loop
+              ></dotlottie-wc>
+              <!-- <img src="assets/img/seo-marketing/work.png" alt="image" /> -->
+            </div>
+          </div>
+
+          <div class="services-content it-service-content">
+            <div class="content">
+              <div class="features-inner-content">
+                <div
+                  class="features-item wow animate__animated animate__fadeInRight"
+                  data-wow-delay=".1s"
+                >
+                  <i class="bx bx-code-alt bg-13c4a1 blt-radius-0"></i>
+                  <h3>Full Stack Development</h3>
+                  <p>
+                    Become a versatile developer proficient in both front-end
+                    and back-end technologies. Master languages like Java,
+                    Python, frameworks like Spring, Django, Angular, and React,
+                    and delve into database management and DevOps.
+                  </p>
+                </div>
+
+                <div
+                  class="features-item wow animate__animated animate__fadeInRight"
+                  data-wow-delay=".2s"
+                >
+                  <i class="bx bxl-dev-to bg-6610f2 blt-radius-0"></i>
+                  <h3>DevOps Engineer</h3>
+                  <p>
+                    Learn to bridge the gap between development and operations.
+                    Master CI/CD, cloud platforms, infrastructure as code, and
+                    automation tools to streamline software delivery.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shape9">
+        <img src="assets/img/shape/9.png" alt="image" />
+      </div>
+    </section>
+    <!-- End Services Area -->
+
+    <!-- Start Overview Area -->
+    <section class="overview-area ptb-100 bg-f4f6fc">
+      <div class="container">
+        <div class="section-title mw-100 mx-5 px-5">
+          <h2 class="mb-2">Full Stack Development Program</h2>
+          <p class="mx-5 mt-3 px-5">
+            Our Full Stack Development program is designed to equip aspiring
+            developers with the skills and knowledge necessary to excel in
+            today's dynamic digital landscape. Through a comprehensive
+            curriculum, hands-on projects, and expert mentorship, participants
+            will gain proficiency in both front-end and back-end development.
+          </p>
+        </div>
+      </div>
+
+      <div class="overview-floating">
+        <i
+          class="bx bx-star ov-fx ov-a"
+          style="left: 8%; top: 20%; font-size: 48px; animation-delay: -1s"
+        ></i>
+        <i
+          class="bx bx-bolt-circle ov-fx ov-b"
+          style="left: 22%; top: 72%; font-size: 60px; animation-delay: -3s"
+        ></i>
+        <i
+          class="bx bx-code-alt ov-fx ov-c"
+          style="left: 38%; top: 30%; font-size: 46px; animation-delay: -2s"
+        ></i>
+        <i
+          class="bx bx-planet ov-fx ov-a"
+          style="left: 56%; top: 64%; font-size: 54px; animation-delay: -1.5s"
+        ></i>
+        <i
+          class="bx bx-chip ov-fx ov-b"
+          style="left: 72%; top: 18%; font-size: 58px; animation-delay: -2.8s"
+        ></i>
+        <i
+          class="bx bx-dna ov-fx ov-c"
+          style="left: 88%; top: 34%; font-size: 56px; animation-delay: -3.6s"
+        ></i>
+      </div>
+
+      <div
+        class="overview-item wow animate__animated animate__fadeInUp"
+        data-wow-delay=".2s"
+      >
+        <div class="container max-width-1290">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-left-img">
+                <img
+                  class="wow animate__animated animate__zoomIn"
+                  src="assets/img/home-saas/feature2.png"
+                  alt="image"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-content pl-3">
+                <span class="number">01</span>
+                <h3>Curriculum Highlights</h3>
+                <p>&nbsp;</p>
+                <ul>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Java Fundamentals:</strong>
+                    <span
+                      >Object-oriented programming, core Java concepts, data
+                      structures, and algorithms.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Spring Framework:</strong>
+                    <span
+                      >Building robust and scalable enterprise applications
+                      using Spring Boot, Spring MVC, and Spring Data JPA.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Database Management:</strong>
+                    <span
+                      >Mastering SQL, database design, and optimization with
+                      MySQL.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Python Programming:</strong>
+                    <span
+                      >Learning Python syntax, data structures, and
+                      object-oriented programming.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Django Framework:</strong>
+                    <span
+                      >Building web applications rapidly using Python and
+                      Django.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Frontend Development:</strong>
+                    <span
+                      >Mastering HTML, CSS, and JavaScript for creating
+                      interactive user interfaces.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Frontend Frameworks:</strong>
+                    <span
+                      >Building dynamic and responsive web applications using
+                      Angular and React.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Version Control:</strong>
+                    <span
+                      >Utilizing Git for efficient code management and
+                      collaboration.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>DevOps:</strong>
+                    <span
+                      >Understanding CI/CD pipelines, cloud platforms (AWS,
+                      Azure, GCP), and deployment strategies.</span
+                    >
+                  </li>
+                </ul>
+                <!-- <a href="#" class="default-btn black-btn">
+                                    <i class='bx bxs-arrow-to-right'></i>
+                                    Read More 
+                                    <span></span>
+                                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="overview-item wow animate__animated animate__fadeInUp"
+        data-wow-delay=".4s"
+      >
+        <div class="container max-width-1290">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-content pl-3">
+                <span class="number">02</span>
+                <h3>Learning Methodology</h3>
+                <p>&nbsp;</p>
+                <ul>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Hands-on Projects:</strong>
+                    <span
+                      >Real-world project-based learning to reinforce
+                      theoretical concepts.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Expert Mentorship:</strong>
+                    <span
+                      >Guidance from experienced industry professionals.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Industry-Relevant Curriculum:</strong>
+                    <span
+                      >Staying updated with the latest industry trends and
+                      technologies.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Soft Skills Development:</strong>
+                    <span
+                      >Communication, teamwork, problem-solving, and critical
+                      thinking skills.</span
+                    >
+                  </li>
+                </ul>
+                <!-- <a href="#" class="default-btn black-btn">
+                                    <i class='bx bxs-arrow-to-right'></i>
+                                    Read More 
+                                    <span></span>
+                                </a> -->
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-right-img">
+                <img src="assets/img/home-saas/feature3.png" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="overview-item wow animate__animated animate__fadeInUp"
+        data-wow-delay=".6s"
+      >
+        <div class="container max-width-1290">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-left-img">
+                <img src="assets/img/home-saas/feature4.png" alt="image" />
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+              <div class="overview-content pl-3">
+                <span class="number">03</span>
+                <h3>Career Support</h3>
+                <p>&nbsp;</p>
+                <ul>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Job Placement Assistance:</strong>
+                    <span
+                      >Dedicated career counseling and job placement
+                      support.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Resume Building and Interview Preparation:</strong>
+                    <span>Enhancing employability skills.</span>
+                  </li>
+                  <li>
+                    <i class="bx bx-badge-check"></i>
+                    <strong>Industry Networking Opportunities:</strong>
+                    <span
+                      >Connecting with potential employers and industry
+                      experts.</span
+                    >
+                  </li>
+                </ul>
+                <!-- <a href="#" class="default-btn black-btn">
+                                    <i class='bx bxs-arrow-to-right'></i>
+                                    Read More 
+                                    <span></span>
+                                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container wow animate__animated animate__fadeInUp"
+        data-wow-delay=".6s"
+      >
+        <div class="section-title mw-100 mx-5 px-5">
+          <p class="mx-5 mt-3 mb-0 px-5">
+            By the end of the program, participants will be well-prepared to
+            take on challenging development roles and contribute effectively to
+            software development teams.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Overview Area -->
+
+    <!-- Start Features Area -->
+    <section class="features-area program-details-area pt-100 pb-70">
+      <div class="program-floating">
+        <i
+          class="bx bx-star in-fx in-a"
+          style="left: 4%; top: 10%; font-size: 40px; animation-delay: -0.5s"
+        ></i>
+        <i
+          class="bx bx-bolt-circle in-fx in-b"
+          style="left: 20%; top: 80%; font-size: 50px; animation-delay: -2.5s"
+        ></i>
+        <i
+          class="bx bx-code-alt in-fx in-c"
+          style="left: 35%; top: 20%; font-size: 44px; animation-delay: -1.5s"
+        ></i>
+        <i
+          class="bx bx-planet in-fx in-a"
+          style="left: 60%; top: 65%; font-size: 52px; animation-delay: -1s"
+        ></i>
+        <i
+          class="bx bx-chip in-fx in-b"
+          style="left: 78%; top: 15%; font-size: 46px; animation-delay: -2s"
+        ></i>
+        <i
+          class="bx bx-dna in-fx in-c"
+          style="left: 90%; top: 40%; font-size: 48px; animation-delay: -3s"
+        ></i>
+      </div>
+      <div class="container">
+        <div class="section-title mw-100 mx-5 mp-5">
+          <h2>
+            Benefits and Outcomes of<br />
+            the Full Stack Development Program
+          </h2>
+          <p>Benefits for Graduates</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="features-box wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <div class="icon">
+                <i class="bx bx-conversation"></i>
+              </div>
+              <h3>Comprehensive Skill Set</h3>
+              <p>
+                Graduates will emerge as full-stack developers with a strong
+                foundation in both front-end and back-end technologies.
+              </p>
+
+              <div class="back-icon">
+                <i class="bx bx-conversation"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="features-box wow animate__animated animate__fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <div class="icon">
+                <i class="bx bxs-badge-check"></i>
+              </div>
+              <h3>Enhanced Job Prospects</h3>
+              <p>
+                The program prepares graduates for a wide range of roles in the
+                IT industry, increasing their employability.
+              </p>
+
+              <div class="back-icon">
+                <i class="bx bxs-badge-check"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 d-none"></div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="features-box wow animate__animated animate__fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div class="icon">
+                <i class="bx bxs-dashboard"></i>
+              </div>
+              <h3>High Earning Potential</h3>
+              <p>
+                Full-stack developers are in high demand, leading to competitive
+                salary packages.
+              </p>
+
+              <div class="back-icon">
+                <i class="bx bxs-dashboard"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-0"></div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="features-box wow animate__animated animate__fadeInUp"
+              data-wow-delay=".4s"
+            >
+              <div class="icon">
+                <i class="bx bxs-bell-ring"></i>
+              </div>
+              <h3>Real-world Experience</h3>
+              <p>
+                Hands-on projects and industry-relevant curriculum provide
+                practical experience.
+              </p>
+
+              <div class="back-icon">
+                <i class="bx bxs-bell-ring"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="features-box wow animate__animated animate__fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div class="icon">
+                <i class="bx bxs-info-circle"></i>
+              </div>
+              <h3>Strong Career Foundation</h3>
+              <p>
+                The program builds a solid base for further specialization and
+                career growth.
+              </p>
+
+              <div class="back-icon">
+                <i class="bx bxs-info-circle"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-0"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Area -->
+
+    <!-- Start Features Card -->
+    <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
+      <div class="container">
+        <div class="section-title mw-100 mx-5 mp-5">
+          <h2>Program Outcomes</h2>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="single-features-card blt-radius-0">
+              <i class="bx bx-conversation blt-radius-0"></i>
+              <h3>Industry-Ready Developers</h3>
+              <p>
+                Graduates will be equipped with the skills to contribute
+                effectively to software development projects from inception to
+                deployment.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".3s"
+          >
+            <div class="single-features-card blt-radius-0">
+              <i class="bx bx-laptop blt-radius-0"></i>
+              <h3>Problem-Solving Abilities</h3>
+              <p>
+                Participants will develop a strong problem-solving mindset and
+                the ability to tackle complex challenges.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="single-features-card blt-radius-0">
+              <i class="bx bxs-badge-check blt-radius-0"></i>
+              <h3>Collaboration Skills</h3>
+              <p>
+                Working on group projects fosters teamwork and communication
+                skills.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".5s"
+          >
+            <div class="single-features-card blt-radius-0">
+              <i class="bx bxs-megaphone blt-radius-0"></i>
+              <h3>Continuous Learning Mindset</h3>
+              <p>
+                The program encourages a lifelong learning approach to stay
+                updated with industry trends.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-title wow animate__animated animate__fadeInUp">
+          <p>
+            By the end of the program, graduates will be confident in their
+            abilities to design, develop, and deploy robust web applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Features Card -->
+
+    <!-- Start Services Area -->
+    <section class="services-area program-details-area ptb-100">
+      <div class="program-floating">
+        <i
+          class="bx bx-star in-fx in-a"
+          style="left: 7%; top: 12%; font-size: 42px; animation-delay: -0.8s"
+        ></i>
+        <i
+          class="bx bx-bolt-circle in-fx in-b"
+          style="left: 22%; top: 78%; font-size: 54px; animation-delay: -2.2s"
+        ></i>
+        <i
+          class="bx bx-code-alt in-fx in-c"
+          style="left: 36%; top: 28%; font-size: 40px; animation-delay: -1.8s"
+        ></i>
+        <i
+          class="bx bx-planet in-fx in-a"
+          style="left: 50%; top: 58%; font-size: 48px; animation-delay: -1.2s"
+        ></i>
+        <i
+          class="bx bx-chip in-fx in-b"
+          style="left: 68%; top: 22%; font-size: 50px; animation-delay: -2.5s"
+        ></i>
+        <i
+          class="bx bx-dna in-fx in-c"
+          style="left: 85%; top: 30%; font-size: 46px; animation-delay: -3.2s"
+        ></i>
+      </div>
+      <div class="container">
+        <div class="section-title text-left">
+          <span class="sub-title">Why</span>
+          <h2>Choose ResourceQ?</h2>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".2s"
+          >
+            <div class="single-services-box">
+              <div class="row m-0">
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="content">
+                    <h3>Expert Faculty</h3>
+                    <p>
+                      Learn from industry professionals with extensive
+                      experience.
+                    </p>
+                    <!-- <a href="single-service.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a> -->
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="image bg-1">
+                    <img
+                      src="assets/img/marketing-agency/services-img1.jpg"
+                      alt="image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".3s"
+          >
+            <div class="single-services-box">
+              <div class="row m-0">
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="content">
+                    <h3>Hands-On Learning</h3>
+                    <p>Gain practical skills through real-world projects.</p>
+                    <!-- <a href="single-service.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a> -->
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="image bg-2">
+                    <img
+                      src="assets/img/marketing-agency/services-img2.jpg"
+                      alt="image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".4s"
+          >
+            <div class="single-services-box">
+              <div class="row m-0">
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="content">
+                    <h3>Career Support</h3>
+                    <p>
+                      Benefit from job placement assistance, resume building,
+                      and interview preparation.
+                    </p>
+                    <!-- <a href="single-service.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a> -->
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="image bg-3">
+                    <img
+                      src="assets/img/marketing-agency/services-img3.jpg"
+                      alt="image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".5s"
+          >
+            <div class="single-services-box">
+              <div class="row m-0">
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="content">
+                    <h3>Flexible Learning</h3>
+                    <p>
+                      Choose from full-time or part-time options to fit your
+                      schedule.
+                    </p>
+                    <!-- <a href="single-service.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a> -->
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 p-0">
+                  <div class="image bg-4">
+                    <img
+                      src="assets/img/marketing-agency/services-img4.jpg"
+                      alt="image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-12 col-md-12 wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
+                        <div class="services-btn-box">
+                            <a href="services-3.html" class="default-btn">
+                                <i class='bx bx-bullseye'></i>View All<span></span>
+                            </a>
+                        </div>
+                    </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- End Services Area -->
+
+    <!-- Start Video Presentation Area -->
+    <!-- <section class="video-presentation-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why choose us to watch this video know more</h2>
+                </div>
+
+                <div class="video-box">
+                    <img src="assets/img/video-bg.jpg" class="main-image" alt="image">
+
+                    <a href="https://www.youtube.com/watch?v=0gv7OC9L2s8" class="video-btn popup-youtube">
+                        <i class="bx bx-play"></i>
+                    </a>
+
+                    <div class="shape1"><img src="assets/img/shape/1.png" alt="image"></div>
+                    <div class="shape2"><img src="assets/img/shape/2.png" alt="image"></div>
+                    <div class="shape3"><img src="assets/img/shape/3.png" alt="image"></div>
+                    <div class="shape4"><img src="assets/img/shape/4.png" alt="image"></div>
+                    <div class="shape5"><img src="assets/img/shape/5.png" alt="image"></div>
+                    <div class="shape6"><img src="assets/img/shape/6.png" alt="image"></div>
+                </div>
+
+                <div class="funfacts-inner">
+                    <div class="row">
+                        <div class="col-lg-3 col-6 col-sm-6">
+                            <div class="single-funfacts funfact-style-two wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                                <i class='bx bx-smile'></i>
+                                <h3>
+                                    <span class="odometer" data-count="850">00</span>
+                                    <span class="sign-icon">+</span>
+                                </h3>
+                                <p>Satisfied Client</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-6 col-sm-6">
+                            <div class="single-funfacts funfact-style-two wow animate__animated animate__fadeInLeft" data-wow-delay=".2s">
+                                <i class='bx bxs-star'></i>
+                                <h3>
+                                    <span class="odometer" data-count="850">00</span>
+                                    <span class="sign-icon">+</span>
+                                </h3>
+                                <p>Appreciation</p>
+                            </div>
+                        </div>
+ 
+                        <div class="col-lg-3 col-6 col-sm-6">
+                            <div class="single-funfacts funfact-style-two wow animate__animated animate__fadeInLeft" data-wow-delay=".4s">
+                                <i class='bx bx-time-five' ></i>
+                                <h3>
+                                    <span class="odometer" data-count="120">00</span>
+                                    <span class="sign-icon">K</span>
+                                </h3>
+                                <p>Response Time</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-6 col-sm-6 wow animate__animated animate__fadeInLeft" data-wow-delay=".5s">
+                            <div class="single-funfacts funfact-style-two">
+                                <i class='bx bx-data'></i>
+                                <h3>
+                                    <span class="odometer" data-count="100">00</span>
+                                    <span class="sign-icon">M</span>
+                                </h3>
+                                <p>Data Entry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta-box mwidth-1000 wow animate__animated animate__fadeInUp" data-wow-delay=".8s">
+                    <h3>Have any question about us?</h3>
+                    <p>Don't hesitate to contact us.</p>
+                    <a href="contact.html" class="default-btn">
+                        <i class="bx bxs-edit-alt"></i>
+                        Contact Us
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="shape-map1"><img src="assets/img/map1.png" alt="image"></div>
+            <div class="shape7"><img src="assets/img/shape/7.png" alt="image"></div>
+            <div class="shape8"><img src="assets/img/shape/8.png" alt="image"></div>
+            <div class="shape9"><img src="assets/img/shape/9.png" alt="image"></div>
+        </section> -->
+    <!-- End Video Presentation Area -->
+
+    <!-- Start Services Area -->
+    <!-- <section class="services-area ptb-100 bg-f4f6fc">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="services-image wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                        <div class="image">
+                            <img src="assets/img/home-saas/feature5.png" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="services-content it-service-content">
+                        <div class="content">
+                            <div class="fun-facts-inner-content">
+                                <h2>Build Beautiful Interface Into Your Application</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                <ul>
+                                    <li>
+                                        <i class="bx bx-badge-check"></i>
+                                        Professional Code
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-badge-check"></i>
+                                        Unimited Video Call
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-badge-check"></i>
+                                        Add Favourite contact
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-badge-check"></i>
+                                        Camera Filter
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-badge-check"></i>
+                                        Start Coding Format
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="default-btn black-btn">
+                                    <i class="bx bxs-arrow-to-right"></i>
+                                    Read More 
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape9">
+                <img src="assets/img/shape/9.png" alt="image">
+            </div>
+        </section> -->
+    <!-- End Services Area -->
+
+    <!-- Start Feedback Area -->
+    <!-- <section class="feedback-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Whats Our Clients Said About <span>ResourceQ</span></h2>
+                </div>
+
+                <div class="feedback-slides owl-carousel owl-theme">
+                    <div class="single-feedback-item">
+                        <img src="assets/img/woman1.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Sarah Taylor</h3>
+                                <span>CEO at Envato</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feedback-item">
+                        <img src="assets/img/woman2.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Olivar Lucy</h3>
+                                <span>CEO at EnvyTheme</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feedback-item">
+                        <img src="assets/img/man1.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Steven Smith</h3>
+                                <span>CEO at Envato</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!-- Start Feedback Area -->
+
+    <!-- Start FAQ Area -->
+    <!-- <section class="faq-area ptb-100">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="faq-accordion">
+                            <h2>Get to know about <span>ResourceQ</span></h2>
+
+                            <ul class="accordion">
+                                <li class="accordion-item">
+                                    <a class="accordion-title active" href="javascript:void(0)">
+                                        <i class="bx bx-plus"></i>
+                                        What access do I have on the free plan?
+                                    </a>
+
+                                    <p class="accordion-content show">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </li>
+                                
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class="bx bx-plus"></i>
+                                        What access do I have on a free trial?
+                                    </a>
+
+                                    <p class="accordion-content">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </li>
+                                
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class="bx bx-plus"></i>
+                                        Does the price go up as my team gets larger?
+                                    </a>
+
+                                    <p class="accordion-content">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </li>
+
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class="bx bx-plus"></i>
+                                        How can I cancel/pause my subscription?
+                                    </a>
+
+                                    <p class="accordion-content">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </li>
+                                
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class="bx bx-plus"></i>
+                                        Can I pay via an invoice?
+                                    </a>
+
+                                    <p class="accordion-content">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12">
+                        <div class="faq-image">
+                            <img src="assets/img/faq-img1.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!-- End FAQ Area -->
+
+    <!-- Start Our Loving Clients Area -->
+    <!-- <section class="our-loving-clients ptb-100 bg-f4f5fe">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Loving Clients</h2>
+                </div>
+
+                <div class="clients-logo-list align-items-center">
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/1.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/2.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/3.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/4.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <!-- End Our Loving Clients Area -->
+
+    <!-- Start Free Trial Area -->
+    <section class="free-trial-area pb-100 bg-f4f5fe">
+      <div class="container">
+        <div class="free-trial-content mw-100">
+          <h2>Ready to embark on your IT journey?</h2>
+          <p>Explore our programs and start building your future today.</p>
+
+          <a href="contact.html" class="default-btn">
+            <i class="bx bxs-hot text-white"></i>
+            Full Stack Development
+            <span></span>
+          </a>
+          <a href="contact.html" class="default-btn mx-3">
+            <i class="bx bxs-hot text-white"></i>
+            DevOps Engineering
+            <span></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="shape10">
+        <img src="assets/img/shape/10.png" alt="image" />
+      </div>
+      <div class="shape11">
+        <img src="assets/img/shape/7.png" alt="image" />
+      </div>
+      <div class="shape12">
+        <img src="assets/img/shape/11.png" alt="image" />
+      </div>
+      <div class="shape13">
+        <img src="assets/img/shape/12.png" alt="image" />
+      </div>
+    </section>
+    <!-- End Free Trial Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer-area">
+      <div class="divider"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <div class="logo">
+                <a href="#"
+                  ><img
+                    src="assets/img/white-logo.png"
+                    alt="image"
+                    style="max-width: 200px"
+                /></a>
+              </div>
+              <p>
+                ResourceQ is a leading staffing services company specialized in
+                helping organizations fulfil their talent acquisition needs. We
+                also help skilled Software professionals to choose right career
+                paths and right positions.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h3>Company</h3>
+
+              <ul class="services-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Main Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h3>Services</h3>
+
+              <ul class="services-list">
+                <li><a href="graduate-training.html">Graduate Training</a></li>
+                <li>
+                  <a href="corporate-partnerships.html"
+                    >Corporate Partnerships</a
+                  >
+                </li>
+                <li>
+                  <a href="staff-augmentation-recruitment.html"
+                    >Staff Augmentation & Recruitment</a
+                  >
+                </li>
+                <li>
+                  <a href="software-development.html">Software Development</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+              <h3>Contact Info</h3>
+
+              <ul class="footer-contact-info">
+                <li>
+                  Location:
+                  <a
+                    href="https://maps.app.goo.gl/GhjWPsNj6TB5hM9DA"
+                    target="_blank"
+                    >1st Floor, Hyderabad, India</a
+                  >
+                </li>
+                <li>
+                  Email:
+                  <a href="mailto:info@resourceq.in">info@resourceq.in</a>
+                </li>
+                <li>Phone: <a href="tel:+914069407888">+91 40 69407888</a></li>
+              </ul>
+              <ul class="social">
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright-area">
+          <p>
+            © Copyright 2024 All Rights Reserved |
+            <a href="https://resourceq.in/" target="_blank">Vaivu ResourceQ</a>
+            Services Pvt Ltd.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <div class="go-top"><i class="bx bx-chevron-up"></i></div>
+
+    <!-- jQuery Min JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Magnific Popup Min JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Appear Min JS -->
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <!-- Odometer Min JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- MeanMenu JS -->
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- WOW Min JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Message Conversation JS -->
+    <script src="assets/js/conversation.js"></script>
+    <!-- AjaxChimp Min JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator Min JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact Form Min JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Particles Min JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/custom-particles.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+  </body>
+</html>

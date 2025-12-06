@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- BoxIcons Min CSS -->
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Odometer Min CSS -->
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <!-- MeanMenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Dark Style CSS -->
+        <link rel="stylesheet" href="assets/css/dark-style.css">
+
+        <title>ResourceQ</title>
+
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <style>
+            .features-area .col-lg-6:nth-child(1) .single-features-box .icon {
+                background-color: #ff612f;
+            }
+            .features-area .col-lg-6:nth-child(1) .single-features-box .icon::before {
+                border-color: #ff612f;
+            }
+            .features-area .col-lg-6:nth-child(1) .features-box .icon {
+                background-color: #ffd7cb;
+                color: #ff612f;
+            }
+            .features-area .col-lg-6:nth-child(1) .features-box .back-icon {
+                color: #ff612f;
+            }
+            .features-area .col-lg-6:nth-child(1) .features-box:hover .icon {
+                background-color: #ff612f;
+                color: #ffffff;
+            }
+            .features-area .col-lg-6:nth-child(3) .single-features-box .icon {
+                background-color: #ffb300;
+            }
+            .features-area .col-lg-6:nth-child(3) .single-features-box .icon::before {
+                border-color: #ffb300;
+            }
+            .features-area .col-lg-6:nth-child(3) .features-box .icon {
+                background-color: #ffecbf;
+                color: #ffb300;
+            }
+            .features-area .col-lg-6:nth-child(3) .features-box .back-icon {
+                color: #ffb300;
+            }
+            .features-area .col-lg-6:nth-child(3) .features-box:hover .icon {
+                background-color: #ffb300;
+                color: #ffffff;
+            }
+            .features-area .col-lg-6:nth-child(4) .single-features-box .icon {
+                background-color: #286efa;
+            }
+            .features-area .col-lg-6:nth-child(4) .single-features-box .icon::before {
+                border-color: #286efa;
+            }
+            .features-area .col-lg-6:nth-child(4) .features-box .icon {
+                background-color: #bcd2fd;
+                color: #286efa;
+            }
+            .features-area .col-lg-6:nth-child(4) .features-box .back-icon {
+                color: #286efa;
+            }
+            .features-area .col-lg-6:nth-child(4) .features-box:hover .icon {
+                background-color: #286efa;
+                color: #ffffff;
+            }
+            .features-area .contact-cta-box {
+                border: none;
+                margin-left: unset;
+                padding: 30px 30px 30px 30px;
+            }
+
+            .features-area .contact-cta-box a.default-btn {
+                position: relative;
+                right: unset;
+            }
+            .is-banner-item {
+                margin: 0;
+                    padding-top: 180px;
+                    padding-bottom: 180px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Dark/Light Toggle -->
+		<div class="dark-version">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+        <!-- Start Preloader Area -->
+        <div class="preloader-area">
+            <div class="spinner">
+                <div class="inner">
+                    <div class="disc"></div>
+                    <div class="disc"></div>
+                    <div class="disc"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area navbar-style-two">
+            <div class="strax-responsive-nav">
+                <div class="container">
+                    <div class="strax-responsive-menu">
+                        <div class="logo black-logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="logo white-logo">
+                            <a href="index.html">
+                                <img src="assets/img/white-logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="strax-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand black-logo" href="index.html">
+                            <img src="assets/img/logo.png" alt="logo">
+                        </a>
+                        <a class="navbar-brand white-logo" href="index.html">
+                            <img src="assets/img/white-logo.png" alt="logo">
+                        </a>
+
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link">About Us</a>
+                                </li>
+
+                                <li class="nav-item"><a href="services.html" class="nav-link active">Services <i class='bx bx-chevron-down'></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="graduate-training.html" class="nav-link">Graduate Training</a></li>
+
+                                        <li class="nav-item"><a href="corporate-partnerships.html" class="nav-link">Corporate Partnerships</a></li>
+
+                                        <li class="nav-item"><a href="staff-augmentation-recruitment.html" class="nav-link active">Staff Augmentation & Recruitment</a></li>
+
+                                        <li class="nav-item"><a href="software-development.html" class="nav-link">Software Development</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+                            <div class="others-options">
+                                <a href="contact.html" class="default-btn"><i class="bx bxs-hot"></i>Partner with Us<span></span></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="circle circle-one"></div>
+                            <div class="circle circle-two"></div>
+                            <div class="circle circle-three"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="option-inner">
+                            <div class="others-options">
+                                <a href="contact.html" class="default-btn">
+                                    <i class="bx bxs-hot"></i> 
+                                    Partner with Us
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!-- Start Marketing Experts Banner Area -->
+        <section class="me-banner-area">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="me-banner-content">
+                            <span class="wow animate__animated animate__fadeInUp">Welcome To ResourceQ</span>
+                            <h1 class="wow animate__animated animate__fadeInUp">
+                                Scale Your Team with Top Talent
+                            </h1>
+                            <p class="wow animate__animated animate__fadeInUp">
+                                Accelerate your business growth with our staffing and recruitment solutions
+                            </p>
+                            <ul class="banner-btn">
+                                <li>
+                                    <a href="contact.html" class="default-btn wow animate__animated animate__fadeInUp">
+                                        <i class="bx bxs-hot text-white"></i>Get Started<span></span>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"> 
+                                        <i class='bx bxs-right-arrow'></i> Play Video
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="me-banner-image">
+                            <img src="assets/img/marketing-experts/banner/main.png" alt="image">
+
+                            <div class="circle-shape">
+                                <img src="assets/img/marketing-experts/banner/circle.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="me-banner-shape">
+                <img src="assets/img/marketing-experts/banner/shape.png" alt="image">
+            </div>
+
+            <div class="me-lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </section>
+        <!-- End Marketing Experts Banner Area -->
+
+        <!-- Start SM Partner Area -->
+        <div class="sm-partner-area me-partner pt-100 pb-70">
+            <div class="container">
+                <div class="section-title-with-large-box wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                    <h2>Our Services</span>
+                    <p>ResourceQ offers comprehensive staffing and recruitment solutions to help businesses build high-performing teams. Our expertise in talent acquisition and management enables us to provide tailored services that meet your specific needs.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End SM Partner Area -->
+
+        <!-- Start Services Area -->
+        <section class="services-area ptb-100">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="services-image wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
+                        <div class="image">
+                            <img src="assets/img/home-saas/feature4.png" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="services-content it-service-content">
+                        <div class="content">
+                            <div class="features-inner-content">
+								<div class="features-item wow animate__animated animate__fadeInRight" data-wow-delay=".1s">
+									<i class='bx bx-briefcase bg-13c4a1 blt-radius-0'></i>
+									<h3>Staff Augmentation</h3>
+									<p>Expand your team with skilled professionals on a flexible basis. Our staff augmentation services allow you to quickly scale your workforce to meet project demands without the overhead of full-time hires. We offer specialized expertise in [list of domains or technologies, e.g., software development, data science, IT infrastructure].</p>
+								</div>
+
+								<div class="features-item wow animate__animated animate__fadeInRight" data-wow-delay=".2s">
+									<i class='bx bx-user-plus bg-6610f2 blt-radius-0'></i>
+									<h3>Recruitment</h3>
+									<p>Our expert recruiters identify and attract top talent for your open positions. We leverage cutting-edge sourcing strategies, including [list of sourcing methods, e.g., social media recruitment, job boards, employee referrals, and employer branding] to deliver high-quality candidates.</p>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shape9">
+                <img src="assets/img/shape/9.png" alt="image">
+            </div>
+        </section>
+        <!-- End Services Area -->
+
+        <!-- Start Me Choose Area -->
+        <div class="me-choose-area ptb-100">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="me-choose-content">
+                            <span>Why Choose Us</span>
+                            <h3>Benefits of Our Services</h3>
+                            <p>&nbsp;</p>
+                            
+                            <div class="choose-inner-card">
+                                <i class='bx bx-check'></i>
+                                <h4>Access to a Wide Talent Pool</h4>
+                                <p>Tap into our network of skilled professionals across various domains.</p>
+                            </div>
+                            <div class="choose-inner-card bg-two">
+                                <i class='bx bx-check'></i>
+                                <h4>Faster Time-to-Hire</h4>
+                                <p>Reduce recruitment time and accelerate project timelines.</p>
+                            </div>
+                            <div class="choose-inner-card bg-three">
+                                <i class='bx bx-check'></i>
+                                <h4>Cost-Effective Solutions</h4>
+                                <p>Optimize your workforce and reduce hiring costs.</p>
+                            </div>
+                            <div class="choose-inner-card bg-four">
+                                <i class='bx bx-check'></i>
+                                <h4>Focus on Core Competencies</h4>
+                                <p>Outsource non-core functions to increase productivity.</p>
+                            </div>
+                            <div class="choose-inner-card bg-two">
+                                <i class='bx bx-check'></i>
+                                <h4>Flexible Staffing Options</h4>
+                                <p>Choose from contract, contract-to-hire, or permanent placement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="me-choose-image">
+                            <img src="assets/img/marketing-experts/choose.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Me Choose Area -->
+
+         <!-- Start ME About Area -->
+         <div class="me-about-area pb-100">
+            <div class="container pt-100">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-12 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                        <div class="me-about-image">
+                            <img src="assets/img/marketing-experts/about/about.png" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 wow animate__animated animate__fadeInUp" data-wow-delay=".8s">
+                        <div class="me-about-content">
+                            <span>What We Do</span>
+                            <h3>How We Work</h3>
+                            <p>&nbsp;</p>
+                            <div class="row justify-content-center">
+                                <div class="col-12 me-choose-content">
+                                    <div class="choose-inner-card">
+                                        <i class='bx bx-check'></i>
+                                        <h4>Understanding Your Needs</h4>
+                                        <p>We collaborate closely with you to define your staffing requirements.</p>
+                                    </div>
+                                    <div class="choose-inner-card bg-two">
+                                        <i class='bx bx-check'></i>
+                                        <h4>Talent Sourcing</h4>
+                                        <p>Our recruiters identify and screen qualified candidates.</p>
+                                    </div>
+                                    <div class="choose-inner-card bg-three">
+                                        <i class='bx bx-check'></i>
+                                        <h4>Skill Assessment</h4>
+                                        <p>We evaluate candidates' skills and experience to ensure a perfect match.</p>
+                                    </div>
+                                    <div class="choose-inner-card bg-four">
+                                        <i class='bx bx-check'></i>
+                                        <h4>Onboarding Support</h4>
+                                        <p>We facilitate a smooth transition for new hires.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="about-btn">
+                                <a href="about.html" class="default-btn">Learn More</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="me-about-shape1">
+                <img src="assets/img/marketing-experts/about/shape1.png" alt="image">
+            </div>
+            <div class="me-about-shape2">
+                <img src="assets/img/marketing-experts/about/shape2.png" alt="image">
+            </div>
+        </div>
+        <!-- End ME About Area -->
+
+        <!-- Start Video Presentation Area -->
+        <!-- <section class="video-presentation-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Watch this video presentation to know more</h2>
+                </div>
+
+                <div class="video-box">
+                    <img src="assets/img/video-bg.jpg" class="main-image" alt="image">
+
+                    <a href="https://www.youtube.com/watch?v=0gv7OC9L2s8" class="video-btn popup-youtube"><i class="bx bx-play"></i></a>
+
+                    <div class="shape1"><img src="assets/img/shape/1.png" alt="image"></div>
+                    <div class="shape2"><img src="assets/img/shape/2.png" alt="image"></div>
+                    <div class="shape3"><img src="assets/img/shape/3.png" alt="image"></div>
+                    <div class="shape4"><img src="assets/img/shape/4.png" alt="image"></div>
+                    <div class="shape5"><img src="assets/img/shape/5.png" alt="image"></div>
+                    <div class="shape6"><img src="assets/img/shape/6.png" alt="image"></div>
+                </div>
+
+                <div class="funfacts-inner">
+                    <div class="row">
+                        <div class="col-lg-3 col-6 col-sm-3 col-md-3">
+                            <div class="single-funfacts">
+                                <h3><span class="odometer" data-count="180">00</span><span class="sign-icon">k</span></h3>
+                                <p>Downloaded</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-6 col-sm-3 col-md-3">
+                            <div class="single-funfacts">
+                                <h3><span class="odometer" data-count="20">00</span><span class="sign-icon">k</span></h3>
+                                <p>Feedback</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-6 col-sm-3 col-md-3">
+                            <div class="single-funfacts">
+                                <h3><span class="odometer" data-count="500">00</span><span class="sign-icon">+</span></h3>
+                                <p>Workers</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-6 col-sm-3 col-md-3">
+                            <div class="single-funfacts">
+                                <h3><span class="odometer" data-count="70">00</span><span class="sign-icon">+</span></h3>
+                                <p>Contributors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta-box">
+                    <h3>Have any question about us?</h3>
+                    <p>Don't hesitate to contact us.</p>
+
+                    <a href="contact.html" class="default-btn"><i class="bx bxs-edit-alt"></i>Contact Us<span></span></a>
+                </div>
+            </div>
+
+            <div class="shape-map1"><img src="assets/img/map1.png" alt="image"></div>
+            <div class="shape7"><img src="assets/img/shape/7.png" alt="image"></div>
+            <div class="shape8"><img src="assets/img/shape/8.png" alt="image"></div>
+            <div class="shape9"><img src="assets/img/shape/9.png" alt="image"></div>
+        </section> -->
+        <!-- End Video Presentation Area -->
+
+        <!-- Start Feedback Area -->
+        <!-- <section class="feedback-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Whats Our Clients Said About <span>ResourceQ</span></h2>
+                </div>
+
+                <div class="feedback-slides owl-carousel owl-theme">
+                    <div class="single-feedback-item">
+                        <img src="assets/img/woman1.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Sarah Taylor</h3>
+                                <span>CEO at Envato</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feedback-item">
+                        <img src="assets/img/woman2.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Olivar Lucy</h3>
+                                <span>CEO at EnvyTheme</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-feedback-item">
+                        <img src="assets/img/man1.png" alt="image">
+
+                        <div class="feedback-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+
+                            <div class="client-info">
+                                <h3>Steven Smith</h3>
+                                <span>CEO at Envato</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Start Feedback Area -->
+
+        <!-- Start Subscribe Area -->
+        <section class="subscribe-area bg-f4f5fe">
+            <div class="container">
+                <div class="subscribe-content">
+                    <h2>We always try to be the best support to you as possible</h2>
+
+                    <form class="newsletter-form" data-bs-toggle="validator">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8 col-md-8">
+                                <input type="email" class="input-newsletter" placeholder="info@resourceq.in" name="EMAIL" required autocomplete="off">
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <button type="submit"><i class="bx bxs-hot"></i> Subscribe Now</button>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div id="validator-newsletter" class="form-result"></div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="shape14"><img src="assets/img/shape/13.png" alt="image"></div>
+                    <div class="shape15"><img src="assets/img/shape/14.png" alt="image"></div>
+                    <div class="shape16"><img src="assets/img/shape/15.png" alt="image"></div>
+                    <div class="shape17"><img src="assets/img/shape/16.png" alt="image"></div>
+                    <div class="shape18"><img src="assets/img/shape/17.png" alt="image"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Subscribe Area -->
+
+        <!-- Start Our Loving Clients Area -->
+        <section class="our-loving-clients ptb-100 bg-f4f5fe">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Loving Clients</h2>
+                </div>
+
+                <div class="clients-logo-list align-items-center">
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/1.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/2.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/3.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/4.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/5.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/6.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/7.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/8.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/9.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/10.png" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="single-clients-logo">
+                        <a href="#">
+                            <img src="assets/img/clients-image/11.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Our Loving Clients Area -->
+
+         <!-- Start Let's Talk Area -->
+        <section class="free-trial-area pb-100 bg-f4f5fe">
+            <div class="container">
+                <div class="free-trial-content mw-100">
+                    <h2>Ready to strengthen your team?</h2>
+                    <p>Contact us today for a consultation.</p>
+
+                    <a href="contact.html" class="default-btn">
+                        <i class="bx bxs-hot text-white"></i> 
+                        Contact Us
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="shape10"><img src="assets/img/shape/10.png" alt="image"></div>
+            <div class="shape11"><img src="assets/img/shape/7.png" alt="image"></div>
+            <div class="shape12"><img src="assets/img/shape/11.png" alt="image"></div>
+            <div class="shape13"><img src="assets/img/shape/12.png" alt="image"></div>
+        </section>
+        <!-- End Let's Talk Area -->
+
+        <!-- Start Footer Area -->
+        <footer class="footer-area">
+            <div class="divider"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/white-logo.png" alt="image" style="max-width:200px"></a>
+                            </div>
+                            <p>ResourceQ is a leading staffing services company specialized in helping organizations fulfil their talent acquisition needs. We also help skilled Software professionals to choose right career paths and right positions.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Company</h3>
+
+                            <ul class="services-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Main Services</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Services</h3>
+
+                            <ul class="services-list">
+                                <li><a href="graduate-training.html">Graduate Training</a></li>
+                                <li><a href="corporate-partnerships.html">Corporate Partnerships</a></li>
+                                <li><a href="staff-augmentation-recruitment.html">Staff Augmentation & Recruitment</a></li>
+                                <li><a href="software-development.html">Software Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Contact Info</h3>
+
+                            <ul class="footer-contact-info">
+                                <li>Location: <a href="https://maps.app.goo.gl/GhjWPsNj6TB5hM9DA" target="_blank">1st Floor, Hyderabad, India</a></li>
+                                <li>Email: <a href="mailto:info@resourceq.in">info@resourceq.in</a></li>
+                                <li>Phone: <a href="tel:+914069407888">+91 40 69407888</a></li>
+                            </ul>
+                            <ul class="social">
+                                <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-area">
+                    <p>© Copyright 2024 All Rights Reserved | <a href="https://resourceq.in/" target="_blank">Vaivu ResourceQ</a> Services Pvt Ltd.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+
+        <div class="go-top"><i class='bx bx-chevron-up'></i></div>
+        
+        <!-- jQuery Min JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap Min JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Magnific Popup Min JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Appear Min JS -->
+        <script src="assets/js/jquery.appear.min.js"></script>
+        <!-- Odometer Min JS -->
+        <script src="assets/js/odometer.min.js"></script>
+        <!-- Owl Carousel Min JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- MeanMenu JS -->
+        <script src="assets/js/jquery.meanmenu.js"></script>
+        <!-- WOW Min JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Message Conversation JS -->
+        <script src="assets/js/conversation.js"></script>
+        <!-- AjaxChimp Min JS -->
+        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Form Validator Min JS -->
+        <script src="assets/js/form-validator.min.js"></script>
+        <!-- Contact Form Min JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Particles Min JS -->
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/custom-particles.js"></script>
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
